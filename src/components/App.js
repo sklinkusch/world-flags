@@ -25,7 +25,10 @@ function App() {
           alignItems: "center", 
           flexWrap: "wrap" 
         }}>
-          {flags.map(flag => <Flag code={flag.code} sx={{width: "100px", mx: "8px", my: "12px"}} />)}
+          {flags.map(flag => (<div sx={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
+            <Flag code={flag.code} sx={{height: "65px", mx: "8px", my: "12px"}} title={flag.name} />
+            <p sx={{ fontSize: "14px"}}>{flag.name}</p>
+            </div>))}
         </div>
       </header>
     </div>
