@@ -26,7 +26,7 @@ function App() {
           flexWrap: "wrap" 
         }}>
           {flags.map(flag => (<div sx={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
-            <Flag code={flag.code} sx={{height: "45px", mx: "8px", my: "12px"}} title={flag.name} />
+            <Flag code={flag.code} sx={{height: "45px", maxWidth: "100px", mx: "8px", my: "12px"}} title={flag.name} />
             <p sx={{ fontSize: "12px", textAlign: "center", maxWidth: "90px"}}>{flag.name}</p>
             </div>))}
         </div>
