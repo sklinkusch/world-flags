@@ -1,3 +1,34 @@
+/*
+ERLÄUTERUNG:
+ALLGEMEIN:
+name:        Name des Landes
+code:        ISO-3166-1 (2-Zeichen) des Landes
+FARBEN DER FLAGGE:
+black:       schwarz
+blue:        blau
+green:       grün
+orange:      orange
+red:         rot
+white:       weiß
+yellow:      gelb
+ELEMENTE:
+stripes:     Zahl der Streifen
+direction:   Richtung der Streifen
+emblem:      Emblem
+object:      Objekte auf der Flagge
+border:      Umrandung
+canton:      Gösch
+quadrisection: Vierteilung
+greekCross:  griechisches Kreuz
+symmetricCross: symmetrisches Kreuz
+nordicCross: nordisches Kreuz
+unionJack:   Union Jack in der Flagge
+bend:        diagonaler Streifen
+chevron:     Dreieck auf der Liek-(Mast-)Seite
+pall:        liegendes Y
+saltire:     Schrägkreuz
+*/
+
 const flags = [
   {
     name: "Afghanistan",
