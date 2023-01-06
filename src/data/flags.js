@@ -2841,6 +2841,114 @@ const flags = [
   {
     name: "Russia",
     code: "RU"
+  },
+  {
+    name: "Solomon Islands",
+    code: "SB"
+  },
+  {
+    name: "Zambia",
+    code: "ZM"
+  },
+  {
+    name: "Samoa",
+    code: "WS"
+  },
+  {
+    name: "San Marino",
+    code: "SM"
+  },
+  {
+    name: "São Tomé and Príncipe",
+    code: "ST"
+  },
+  {
+    name: "Saudi Arabia",
+    code: "SA"
+  },
+  {
+    name: "Sweden",
+    code: "SE"
+  },
+  {
+    name: "Switzerland",
+    code: "CH"
+  },
+  {
+    name: "Senegal",
+    code: "SN"
+  },
+  {
+    name: "Serbia",
+    code: "RS"
+  },
+  {
+    name: "Seychelles",
+    code: "SC"
+  },
+  {
+    name: "Sierra Leone",
+    code: "SL"
+  },
+  {
+    name: "Zimbabwe",
+    code: "ZW"
+  },
+  {
+    name: "Singapore",
+    code: "SG"
+  },
+  {
+    name: "Slovakia",
+    code: "SK"
+  },
+  {
+    name: "Slovenia",
+    code: "SI"
+  },
+  {
+    name: "Somalia",
+    code: "SO"
+  },
+  {
+    name: "Spain",
+    code: "ES"
+  },
+  {
+    name: "Sri Lanka",
+    code: "LK"
+  },
+  {
+    name: "St. Kitts and Nevis",
+    code: "KN"
+  },
+  {
+    name: "St. Lucia",
+    code: "LC"
+  },
+  {
+    name: "St. Vincent and the Grenadines",
+    code: "VC"
+  },
+  {
+    name: "South Africa",
+    code: "ZA"
+  },
+  {
+    name: "Sudan",
+    code: "SD"
+  },
+  {
+    name: "South Sudan",
+    code: "SS"
+  },
+  {
+    name: "Suriname",
+    code: "SR"
+  },
+  {
+    name: "Syria",
+    code: "SY"
   }
 ]
 
