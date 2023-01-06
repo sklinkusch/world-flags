@@ -2829,6 +2829,18 @@ const flags = [
   {
     name: "Portugal",
     code: "PT"
+  },
+  {
+    name: "Rwanda",
+    code: "RW"
+  },
+  {
+    name: "Romania",
+    code: "RO"
+  },
+  {
+    name: "Russia",
+    code: "RU"
   }
 ]
 
