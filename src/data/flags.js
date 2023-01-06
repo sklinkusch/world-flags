@@ -2682,6 +2682,66 @@ const flags = [
     pall: false,
     saltire: false,
   },
+  {
+    name: "Maldives",
+    code: "MV"
+  },
+  {
+    name: "Mali",
+    code: "ML"
+  },
+  {
+    name: "Malta",
+    code: "MT"
+  },
+  {
+    name: "Morocco",
+    code: "MA"
+  },
+  {
+    name: "Marshall Islands",
+    code: "MH"
+  },
+  {
+    name: "Mauritania",
+    code: "MR"
+  },
+  {
+    name: "Mauritius",
+    code: "MU"
+  },
+  {
+    name: "Mexico",
+    code: "MX"
+  },
+  {
+    name: "Micronesia",
+    code: "FM"
+  },
+  {
+    name: "Moldova",
+    code: "MD"
+  },
+  {
+    name: "Monaco",
+    code: "MC"
+  },
+  {
+    name: "Mongolia",
+    code: "MN"
+  },
+  {
+    name: "Montenegro",
+    code: "ME"
+  },
+  {
+    name: "Mozambique",
+    code: "MZ"
+  },
+  {
+    name: "Myanmar",
+    code: "MM"
+  }
 ]
 
 export default flags
