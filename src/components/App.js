@@ -3,6 +3,7 @@ import Flag from "react-world-flags";
 import flags from "../data/flags";
 
 function App() {
+  const sortedFlags = flags.sort((a, b) => a.name.localeCompare(b.name, 'en', { sensitivity: 'base' }))
   return (
     <div className="App" sx={{ textAlign: "center" }}>
       <header 
@@ -25,7 +26,7 @@ function App() {
           alignItems: "center", 
           flexWrap: "wrap" 
         }}>
-          {flags.map(flag => (<div sx={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
+          {sortedFlags.map(flag => (<div sx={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
             <Flag code={flag.code} sx={{height: "45px", maxWidth: "100px", mx: "8px", my: "12px"}} title={flag.name} />
             <p sx={{ fontSize: "12px", textAlign: "center", maxWidth: "90px"}}>{flag.name}</p>
             </div>))}
