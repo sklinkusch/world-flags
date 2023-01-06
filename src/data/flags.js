@@ -2741,6 +2741,42 @@ const flags = [
   {
     name: "Myanmar",
     code: "MM"
+  },
+  {
+    name: "Namibia",
+    code: "NA"
+  },
+  {
+    name: "Nauru",
+    code: "NR"
+  },
+  {
+    name: "New Zealand",
+    code: "NZ"
+  },
+  {
+    name: "Nicaragua",
+    code: "NI"
+  },
+  {
+    name: "Netherlands",
+    code: "NL"
+  },
+  {
+    name: "Niger",
+    code: "NE"
+  },
+  {
+    name: "Nigeria",
+    code: "NG"
+  },
+  {
+    name: "North Macedonia",
+    code: "MK"
+  },
+  {
+    name: "Norway",
+    code: "NO"
   }
 ]
 
