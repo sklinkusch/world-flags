@@ -2777,6 +2777,18 @@ const flags = [
   {
     name: "Norway",
     code: "NO"
+  },
+  {
+    name: "Oman",
+    code: "OM"
+  },
+  {
+    name: "Austria",
+    code: "AT"
+  },
+  {
+    name: "Timor-Leste",
+    code: "TL"
   }
 ]
 
