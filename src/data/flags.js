@@ -2789,6 +2789,46 @@ const flags = [
   {
     name: "Timor-Leste",
     code: "TL"
+  },
+  {
+    name: "Pakistan",
+    code: "PK"
+  },
+  {
+    name: "Palestine",
+    code: "PS"
+  },
+  {
+    name: "Palau",
+    code: "PW"
+  },
+  {
+    name: "Panama",
+    code: "PA"
+  },
+  {
+    name: "Papua New Guinea",
+    code: "PG"
+  },
+  {
+    name: "Paraguay",
+    code: "PY"
+  },
+  {
+    name: "Peru",
+    code: "PE"
+  },
+  {
+    name: "Philippines",
+    code: "PH"
+  },
+  {
+    name: "Poland",
+    code: "PL"
+  },
+  {
+    name: "Portugal",
+    code: "PT"
   }
 ]
 
