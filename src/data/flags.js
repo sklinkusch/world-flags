@@ -86,6 +86,7 @@ const flags = [
   {
     name: "Albania",
     code: "AL",
+    region: ["Europe", "Southern Europe", "Balkans Peninsula", "Mediterranean Countries"],
     black: true,
     blue: false,
     green: false,
@@ -138,6 +139,7 @@ const flags = [
   {
     name: "Andorra",
     code: "AD",
+    region: ["Europe", "Southern Europe", "Iberic Peninsula"],
     black: false,
     blue: true,
     green: false,
@@ -270,6 +272,7 @@ const flags = [
   {
     name: "Armenia",
     code: "AM",
+    region: ["Europe", "Eastern Europe", "Asia", "Caucasus", "Former USSR"],
     black: false,
     blue: true,
     green: false,
@@ -296,6 +299,7 @@ const flags = [
   {
     name: "Azerbaijan",
     code: "AZ",
+    region: ["Europe", "Eastern Europe", "Asia", "Caucasus", "Former USSR"],
     black: false,
     blue: true,
     green: true,
@@ -478,8 +482,14 @@ const flags = [
     saltire: false,
   },
   {
+    name: "Belarus",
+    code: "BY",
+    region: ["Europe", "Eastern Europe", "Former USSR"]
+  },
+  {
     name: "Belgium",
     code: "BE",
+    region: ["Europe", "Western Europe"],
     black: true,
     blue: false,
     green: false,
@@ -612,6 +622,7 @@ const flags = [
   {
     name: "Bosnia and Herzegovina",
     code: "BA",
+    region: ["Europe", "Southern Europe", "Balkans Peninsula"],
     black: false,
     blue: true,
     green: false,
@@ -717,6 +728,7 @@ const flags = [
   {
     name: "Bulgaria",
     code: "BG",
+    region: ["Europe", "Eastern Europe", "Balkans Peninsula"],
     black: false,
     blue: false,
     green: true,
@@ -901,6 +913,7 @@ const flags = [
   {
     name: "Denmark",
     code: "DK",
+    region: ["Europe", "Northern Europe", "Scandinavia"],
     black: false,
     blue: false,
     green: false,
@@ -927,6 +940,7 @@ const flags = [
   {
     name: "Germany",
     code: "DE",
+    region: ["Europe", "Western Europe", "Central Europe"],
     black: true,
     blue: false,
     green: false,
@@ -1139,6 +1153,7 @@ const flags = [
   {
     name: "Estonia",
     code: "EE",
+    region: ["Europe", "Northern Europe", "Baltic Countries", "Former USSR"],
     black: true,
     blue: true,
     green: false,
@@ -1217,6 +1232,7 @@ const flags = [
   {
     name: "Finland",
     code: "FI",
+    region: ["Europe", "Northern Europe", "Scandinavia"],
     black: false,
     blue: true,
     green: false,
@@ -1243,6 +1259,7 @@ const flags = [
   {
     name: "France",
     code: "FR",
+    region: ["Europe", "Western Europe", "Mediterranean Countries"],
     black: false,
     blue: true,
     green: false,
@@ -1321,6 +1338,7 @@ const flags = [
   {
     name: "Georgia",
     code: "GE",
+    region: ["Europe", "Eastern Europe", "Asia", "Caucasus", "Former USSR"],
     black: false,
     blue: false,
     green: false,
@@ -1400,6 +1418,7 @@ const flags = [
   {
     name: "Greece",
     code: "GR",
+    region: ["Europe", "Southern Europe", "Mediterranean Countries"],
     black: false,
     blue: true,
     green: false,
@@ -1690,6 +1709,7 @@ const flags = [
   {
     name: "Ireland",
     code: "IE",
+    region: ["Europe", "Western Europe", "British Isles"],
     black: false,
     blue: false,
     green: true,
@@ -1716,6 +1736,7 @@ const flags = [
   {
     name: "Iceland",
     code: "IS",
+    region: ["Europe", "Northern Europe", "Scandinavia"],
     black: false,
     blue: true,
     green: false,
@@ -1768,6 +1789,7 @@ const flags = [
   {
     name: "Italy",
     code: "IT",
+    region: ["Europe", "Southern Europe", "Appenine Peninsula", "Mediterranean Countries"],
     black: false,
     blue: false,
     green: true,
@@ -2004,6 +2026,7 @@ const flags = [
   {
     name: "Kazakhstan",
     code: "KZ",
+    region: ["Europe", "Eastern Europe", "Central Asia", "Former USSR"],
     black: false,
     blue: true,
     green: false,
@@ -2291,6 +2314,7 @@ const flags = [
   {
     name: "Kosovo",
     code: "XK",
+    region: ["Europe", "Southern Europe", "Balkans Peninsula"],
     black: false,
     blue: true,
     green: false,
@@ -2317,6 +2341,7 @@ const flags = [
   {
     name: "Croatia",
     code: "HR",
+    region: ["Europe", "Southern Europe", "Balkans Peninsula", "Mediterranean Countries"],
     black: false,
     blue: true,
     green: false,
@@ -2448,6 +2473,7 @@ const flags = [
   {
     name: "Latvia",
     code: "LV",
+    region: ["Europe", "Northern Europe", "Baltic Countries", "Former USSR"],
     black: false,
     blue: false,
     green: false,
@@ -2552,6 +2578,7 @@ const flags = [
   {
     name: "Liechtenstein",
     code: "LI",
+    region: ["Europe", "Western Europe", "Central Europe"],
     black: false,
     blue: true,
     green: false,
@@ -2578,6 +2605,7 @@ const flags = [
   {
     name: "Lithuania",
     code: "LT",
+    region: ["Europe", "Northern Europe", "Baltic Countries", "Former USSR"],
     black: false,
     blue: false,
     green: true,
@@ -2604,6 +2632,7 @@ const flags = [
   {
     name: "Luxembourg",
     code: "LU",
+    region: ["Europe", "Western Europe"],
     black: false,
     blue: true,
     green: false,
@@ -2715,7 +2744,8 @@ const flags = [
   },
   {
     name: "Malta",
-    code: "MT"
+    code: "MT",
+    region: ["Europe", "Southern Europe", "Mediterranean Countries"]
   },
   {
     name: "Morocco",
@@ -2744,11 +2774,13 @@ const flags = [
   },
   {
     name: "Moldova",
-    code: "MD"
+    code: "MD",
+    region: ["Europe", "Eastern Europe", "Former USSR"]
   },
   {
     name: "Monaco",
-    code: "MC"
+    code: "MC",
+    region: ["Europe", "Western Europe", "Mediterranean Countries"]
   },
   {
     name: "Mongolia",
@@ -2785,7 +2817,8 @@ const flags = [
   },
   {
     name: "Netherlands",
-    code: "NL"
+    code: "NL",
+    region: ["Europe", "Western Europe"]
   },
   {
     name: "Niger",
@@ -2797,11 +2830,13 @@ const flags = [
   },
   {
     name: "North Macedonia",
-    code: "MK"
+    code: "MK",
+    region: ["Europe", "Southern Europe", "Balkans Peninsula"]
   },
   {
     name: "Norway",
-    code: "NO"
+    code: "NO",
+    region: ["Europe", "Northern Europe", "Scandinavia"]
   },
   {
     name: "Oman",
@@ -2809,7 +2844,8 @@ const flags = [
   },
   {
     name: "Austria",
-    code: "AT"
+    code: "AT",
+    region: ["Europe", "Western Europe", "Central Europe"]
   },
   {
     name: "Timor-Leste",
@@ -2852,11 +2888,13 @@ const flags = [
   },
   {
     name: "Poland",
-    code: "PL"
+    code: "PL",
+    region: ["Europe", "Eastern Europe", "Central Europe"]
   },
   {
     name: "Portugal",
-    code: "PT"
+    code: "PT",
+    region: ["Europe", "Southern Europe", "Iberic Peninsula"]
   },
   {
     name: "Rwanda",
@@ -2864,11 +2902,13 @@ const flags = [
   },
   {
     name: "Romania",
-    code: "RO"
+    code: "RO",
+    region: ["Europe", "Eastern Europe", "Balkans Peninsula"]
   },
   {
     name: "Russia",
-    code: "RU"
+    code: "RU",
+    region: ["Europe", "Eastern Europe", "Former USSR"]
   },
   {
     name: "Solomon Islands",
@@ -2884,7 +2924,8 @@ const flags = [
   },
   {
     name: "San Marino",
-    code: "SM"
+    code: "SM",
+    region: ["Europe", "Southern Europe", "Appenine Peninsula"]
   },
   {
     name: "São Tomé and Príncipe",
@@ -2896,11 +2937,13 @@ const flags = [
   },
   {
     name: "Sweden",
-    code: "SE"
+    code: "SE",
+    region: ["Europe", "Northern Europe", "Scandinavia"]
   },
   {
     name: "Switzerland",
-    code: "CH"
+    code: "CH",
+    region: ["Europe", "Western Europe", "Central Europe"]
   },
   {
     name: "Senegal",
@@ -2908,7 +2951,8 @@ const flags = [
   },
   {
     name: "Serbia",
-    code: "RS"
+    code: "RS",
+    region: ["Europe", "Southern Europe", "Balkans Peninsula"]
   },
   {
     name: "Seychelles",
@@ -2928,11 +2972,13 @@ const flags = [
   },
   {
     name: "Slovakia",
-    code: "SK"
+    code: "SK",
+    region: ["Europe", "Eastern Europe", "Central Europe"]
   },
   {
     name: "Slovenia",
-    code: "SI"
+    code: "SI",
+    region: ["Europe", "Southern Europe", "Balkans Peninsula", "Mediterranean Countries"]
   },
   {
     name: "Somalia",
@@ -2940,7 +2986,8 @@ const flags = [
   },
   {
     name: "Spain",
-    code: "ES"
+    code: "ES",
+    region: ["Europe", "Southern Europe", "Iberic Peninsula", "Mediterranean Countries"]
   },
   {
     name: "Sri Lanka",
@@ -3009,7 +3056,8 @@ const flags = [
   },
   {
     name: "Czechia",
-    code: "CZ"
+    code: "CZ",
+    region: ["Europe", "Eastern Europe", "Central Europe"]
   },
   {
     name: "Tunisia",
@@ -3017,7 +3065,8 @@ const flags = [
   },
   {
     name: "Turkey",
-    code: "TR"
+    code: "TR",
+    region: ["Europe", "Eastern Europe", "Asia", "Mediterranean Countries"]
   },
   {
     name: "Turkmenistan",
@@ -3033,11 +3082,13 @@ const flags = [
   },
   {
     name: "Ukraine",
-    code: "UA"
+    code: "UA",
+    region: ["Europe", "Eastern Europe", "Former USSR"]
   },
   {
     name: "Hungary",
-    code: "HU"
+    code: "HU",
+    region: ["Europe", "Eastern Europe", "Central Europe"]
   },
   {
     name: "Uruguay",
@@ -3054,7 +3105,8 @@ const flags = [
   },
   {
     name: "Vatican City",
-    code: "VA"
+    code: "VA",
+    region: ["Europe", "Southern Europe", "Appenine Peninsula"]
   },
   {
     name: "Venezuela",
@@ -3072,7 +3124,8 @@ const flags = [
   },
   {
     name: "United Kingdom",
-    code: "GB"
+    code: "GB",
+    region: ["Europe", "Western Europe", "British Isles"]
   },
   {
     name: "Vietnam",
@@ -3088,7 +3141,8 @@ const flags = [
   },
   {
     name: "Cyprus",
-    code: "CY"
+    code: "CY",
+    region: ["Europe", "Southern Europe", "Asia", "Mediterranean Countries"]
   }
 ]
 
