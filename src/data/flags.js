@@ -3,6 +3,7 @@ ERLÄUTERUNG:
 ALLGEMEIN:
 name:        Name des Landes
 code:        ISO-3166-1 (2-Zeichen) des Landes
+region:      Region
 FARBEN DER FLAGGE:
 black:       schwarz
 blue:        blau
@@ -189,6 +190,7 @@ const flags = [
   {
     name: "Antigua and Barbuda",
     code: "AG",
+    region: "Caribbean",
     black: true,
     blue: true,
     green: false,
@@ -371,6 +373,7 @@ const flags = [
   {
     name: "Bahamas",
     code: "BS",
+    region: "Caribbean",
     black: true,
     blue: true,
     green: false,
@@ -449,6 +452,7 @@ const flags = [
   {
     name: "Barbados",
     code: "BB",
+    region: "Caribbean",
     black: false,
     blue: true,
     green: false,
@@ -501,6 +505,7 @@ const flags = [
   {
     name: "Belize",
     code: "BZ",
+    region: "Central America",
     black: false,
     blue: true,
     green: false,
@@ -865,6 +870,7 @@ const flags = [
   {
     name: "Costa Rica",
     code: "CR",
+    region: "Central America",
     black: false,
     blue: true,
     green: false,
@@ -943,6 +949,7 @@ const flags = [
   {
     name: "Dominica",
     code: "DM",
+    region: "Caribbean",
     black: true,
     blue: false,
     green: true,
@@ -969,6 +976,7 @@ const flags = [
   {
     name: "Dominican Republic",
     code: "DO",
+    region: "Caribbean",
     black: false,
     blue: false,
     green: false,
@@ -1047,6 +1055,7 @@ const flags = [
   {
     name: "El Salvador",
     code: "SV",
+    region: "Central America",
     black: false,
     blue: true,
     green: false,
@@ -1359,6 +1368,7 @@ const flags = [
   {
     name: "Grenada",
     code: "GD",
+    region: "Caribbean",
     black: false,
     blue: false,
     green: true,
@@ -1411,6 +1421,7 @@ const flags = [
   {
     name: "Guatemala",
     code: "GT",
+    region: "Central America",
     black: false,
     blue: true,
     green: false,
@@ -1515,6 +1526,7 @@ const flags = [
   {
     name: "Haiti",
     code: "HT",
+    region: "Caribbean",
     black: false,
     blue: true,
     green: false,
@@ -1541,6 +1553,7 @@ const flags = [
   {
     name: "Honduras",
     code: "HN",
+    region: "Central America",
     black: false,
     blue: true,
     green: false,
@@ -1775,6 +1788,7 @@ const flags = [
   {
     name: "Jamaica",
     code: "JM",
+    region: "Caribbean",
     black: true,
     blue: false,
     green: true,
@@ -1931,6 +1945,7 @@ const flags = [
   {
     name: "Canada",
     code: "CA",
+    region: "North America",
     black: false,
     blue: false,
     green: false,
@@ -2321,6 +2336,7 @@ const flags = [
   {
     name: "Cuba",
     code: "CU",
+    region: "Caribbean",
     black: false,
     blue: true,
     green: false,
@@ -2712,7 +2728,8 @@ const flags = [
   },
   {
     name: "Mexico",
-    code: "MX"
+    code: "MX",
+    region: "North America"
   },
   {
     name: "Micronesia",
@@ -2756,7 +2773,8 @@ const flags = [
   },
   {
     name: "Nicaragua",
-    code: "NI"
+    code: "NI",
+    region: "Central America"
   },
   {
     name: "Netherlands",
@@ -2804,7 +2822,8 @@ const flags = [
   },
   {
     name: "Panama",
-    code: "PA"
+    code: "PA",
+    region: "Central America"
   },
   {
     name: "Papua New Guinea",
@@ -2920,15 +2939,18 @@ const flags = [
   },
   {
     name: "St. Kitts and Nevis",
-    code: "KN"
+    code: "KN",
+    region: "Caribbean"
   },
   {
     name: "St. Lucia",
-    code: "LC"
+    code: "LC",
+    region: "Caribbean"
   },
   {
     name: "St. Vincent and the Grenadines",
-    code: "VC"
+    code: "VC",
+    region: "Caribbean"
   },
   {
     name: "South Africa",
@@ -2968,7 +2990,8 @@ const flags = [
   },
   {
     name: "Trinidad and Tobago",
-    code: "TT"
+    code: "TT",
+    region: "Caribbean"
   },
   {
     name: "Chad",
@@ -3032,7 +3055,8 @@ const flags = [
   },
   {
     name: "United States",
-    code: "US"
+    code: "US",
+    region: "North America"
   },
   {
     name: "United Kingdom",
