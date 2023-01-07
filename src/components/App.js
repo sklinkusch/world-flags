@@ -4,17 +4,18 @@ import Flag from "react-world-flags";
 import flags from "../data/flags";
 
 function App() {
-  const [region, setRegion] = useState(null)
+  const [region, setRegion] = useState(localStorage.getItem('region') || 'null')
   const allRegionsRaw = flags.filter(flag => flag.region).map(flag => flag.region)
   const allRegionsSet = new Set(allRegionsRaw)
   const allSetRegions = Array.from(allRegionsSet)
-  const allRegions = [ null, ...allSetRegions ]
-  const selectedFlags = region ? flags.filter(flag => flag.region === region) : flags
+  const allRegions = [ 'null', ...allSetRegions ]
+  const selectedFlags = region !== 'null' ? flags.filter(flag => flag.region === region) : flags
   const sortedFlags = selectedFlags.sort((a, b) => a.name.localeCompare(b.name, 'en', { sensitivity: 'base' }))
   const handleRegionChange = (e) => {
     const selectedValue = e.target.value
     if (selectedValue !== region) {
       setRegion(selectedValue)
+      localStorage.setItem('region', selectedValue)
     }
   }
   return (
@@ -33,8 +34,8 @@ function App() {
         }}
       >
         <div sx={{ textAlign: "center" }}>
-          <select onChange={handleRegionChange} sx={{ height: "30px", width: "250px", fontSize: "14px" }}>
-            {allRegions.map((region, index) => <option key={index} value={region}>{region ? region : 'all'}</option>)}
+          <select onChange={handleRegionChange} sx={{ height: "30px", width: "250px", fontSize: "14px" }} value={region}>
+            {allRegions.map((regionOpt, index) => <option key={index} value={regionOpt}>{regionOpt !== "null" ? regionOpt : "all"}</option>)}
           </select>
         </div>
         <div sx={{ 
@@ -45,7 +46,7 @@ function App() {
           flexWrap: "wrap" ,
           height: "calc(100vh - 40px)"
         }}>
-          {sortedFlags.map(flag => (<div sx={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
+          {sortedFlags.map(flag => (<div key={flag.code} sx={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
             <Flag code={flag.code} sx={{height: "45px", maxWidth: "100px", mx: "8px", my: "12px"}} title={flag.name} />
             <p sx={{ fontSize: "12px", textAlign: "center", maxWidth: "90px"}}>{flag.name}</p>
             </div>))}
