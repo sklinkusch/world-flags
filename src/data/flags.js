@@ -3013,6 +3013,34 @@ const flags = [
   {
     name: "Uzbekistan",
     code: "UZ"
+  },
+  {
+    name: "Vanuatu",
+    code: "VU"
+  },
+  {
+    name: "Vatican City",
+    code: "VA"
+  },
+  {
+    name: "Venezuela",
+    code: "VE"
+  },
+  {
+    name: "United Arab Emirates",
+    code: "AE"
+  },
+  {
+    name: "United States",
+    code: "US"
+  },
+  {
+    name: "United Kingdom",
+    code: "GB"
+  },
+  {
+    name: "Vietnam",
+    code: "VN"
   }
 ]
 
