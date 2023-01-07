@@ -1,9 +1,22 @@
 /** @jsxImportSource theme-ui */
+import { useState } from "react"
 import Flag from "react-world-flags";
 import flags from "../data/flags";
 
 function App() {
-  const sortedFlags = flags.sort((a, b) => a.name.localeCompare(b.name, 'en', { sensitivity: 'base' }))
+  const [region, setRegion] = useState(null)
+  const allRegionsRaw = flags.filter(flag => flag.region).map(flag => flag.region)
+  const allRegionsSet = new Set(allRegionsRaw)
+  const allSetRegions = Array.from(allRegionsSet)
+  const allRegions = [ null, ...allSetRegions ]
+  const selectedFlags = region ? flags.filter(flag => flag.region === region) : flags
+  const sortedFlags = selectedFlags.sort((a, b) => a.name.localeCompare(b.name, 'en', { sensitivity: 'base' }))
+  const handleRegionChange = (e) => {
+    const selectedValue = e.target.value
+    if (selectedValue !== region) {
+      setRegion(selectedValue)
+    }
+  }
   return (
     <div className="App" sx={{ textAlign: "center" }}>
       <header 
@@ -19,12 +32,18 @@ function App() {
           fontSize: "calc(10px + 2vmin)"
         }}
       >
+        <div sx={{ textAlign: "center" }}>
+          <select onChange={handleRegionChange} sx={{ height: "30px", width: "250px", fontSize: "14px" }}>
+            {allRegions.map((region, index) => <option key={index} value={region}>{region ? region : 'all'}</option>)}
+          </select>
+        </div>
         <div sx={{ 
           display: "flex", 
           flexDirection: "row", 
           justifyContent: "space-around", 
           alignItems: "center", 
-          flexWrap: "wrap" 
+          flexWrap: "wrap" ,
+          height: "calc(100vh - 40px)"
         }}>
           {sortedFlags.map(flag => (<div sx={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
             <Flag code={flag.code} sx={{height: "45px", maxWidth: "100px", mx: "8px", my: "12px"}} title={flag.name} />
