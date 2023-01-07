@@ -2949,6 +2949,50 @@ const flags = [
   {
     name: "Syria",
     code: "SY"
+  },
+  {
+    name: "Tajikistan",
+    code: "TJ"
+  },
+  {
+    name: "Tanzania",
+    code: "TZ"
+  },
+  {
+    name: "Togo",
+    code: "TG"
+  },
+  {
+    name: "Tonga",
+    code: "TO"
+  },
+  {
+    name: "Trinidad and Tobago",
+    code: "TT"
+  },
+  {
+    name: "Chad",
+    code: "TD"
+  },
+  {
+    name: "Czechia",
+    code: "CZ"
+  },
+  {
+    name: "Tunisia",
+    code: "TN"
+  },
+  {
+    name: "Turkey",
+    code: "TR"
+  },
+  {
+    name: "Turkmenistan",
+    code: "TM"
+  },
+  {
+    name: "Tuvalu",
+    code: "TV"
   }
 ]
 
