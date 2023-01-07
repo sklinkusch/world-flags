@@ -23,7 +23,6 @@ function App() {
     return 0
   })
   const allRegions = [ 'null', ...allSetRegions ]
-  console.log(region)
   const selectedFlags = region !== 'null' && region != null ? flags.filter(flag => flag.region && flag.region.includes(region)) : flags
   const sortedFlags = selectedFlags.sort((a, b) => a.name.localeCompare(b.name, 'en', { sensitivity: 'base' }))
   const handleRegionChange = (e) => {
