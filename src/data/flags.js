@@ -243,6 +243,7 @@ const flags = [
   {
     name: "Argentina",
     code: "AR",
+    region: "South America",
     black: false,
     blue: true,
     green: false,
@@ -584,6 +585,7 @@ const flags = [
   {
     name: "Bolivia",
     code: "BO",
+    region: "South America",
     black: false,
     blue: false,
     green: true,
@@ -662,6 +664,7 @@ const flags = [
   {
     name: "Brazil",
     code: "BR",
+    region: "South America",
     black: false,
     blue: true,
     green: true,
@@ -792,6 +795,7 @@ const flags = [
   {
     name: "Chile",
     code: "CL",
+    region: "South America",
     black: false,
     blue: true,
     green: false,
@@ -1029,6 +1033,7 @@ const flags = [
   {
     name: "Ecuador",
     code: "EC",
+    region: "South America",
     black: false,
     blue: true,
     green: false,
@@ -1500,6 +1505,7 @@ const flags = [
   {
     name: "Guyana",
     code: "GY",
+    region: "South America",
     black: true,
     blue: false,
     green: true,
@@ -2128,6 +2134,7 @@ const flags = [
   {
     name: "Colombia",
     code: "CO",
+    region: "South America",
     black: false,
     blue: true,
     green: false,
@@ -2831,11 +2838,13 @@ const flags = [
   },
   {
     name: "Paraguay",
-    code: "PY"
+    code: "PY",
+    region: "South America"
   },
   {
     name: "Peru",
-    code: "PE"
+    code: "PE",
+    region: "South America"
   },
   {
     name: "Philippines",
@@ -2966,7 +2975,8 @@ const flags = [
   },
   {
     name: "Suriname",
-    code: "SR"
+    code: "SR",
+    region: "South America"
   },
   {
     name: "Syria",
@@ -3031,7 +3041,8 @@ const flags = [
   },
   {
     name: "Uruguay",
-    code: "UY"
+    code: "UY",
+    region: "South America"
   },
   {
     name: "Uzbekistan",
@@ -3047,7 +3058,8 @@ const flags = [
   },
   {
     name: "Venezuela",
-    code: "VE"
+    code: "VE",
+    region: "South America"
   },
   {
     name: "United Arab Emirates",
