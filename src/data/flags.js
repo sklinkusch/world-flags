@@ -2993,6 +2993,26 @@ const flags = [
   {
     name: "Tuvalu",
     code: "TV"
+  },
+  {
+    name: "Uganda",
+    code: "UG"
+  },
+  {
+    name: "Ukraine",
+    code: "UA"
+  },
+  {
+    name: "Hungary",
+    code: "HU"
+  },
+  {
+    name: "Uruguay",
+    code: "UY"
+  },
+  {
+    name: "Uzbekistan",
+    code: "UZ"
   }
 ]
 
