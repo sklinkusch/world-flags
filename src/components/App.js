@@ -5,7 +5,10 @@ import flags from "../data/flags";
 
 function App() {
   const [region, setRegion] = useState(localStorage.getItem('region') || 'null')
-  const allRegionsRaw = flags.filter(flag => flag.region).map(flag => flag.region)
+  const allRegionsRaw = flags.filter(flag => flag.hasOwnProperty("region") && flag.region != null).reduce((acc, curr) => {
+    const arr = acc.concat(curr.region)
+    return arr
+  }, [])
   const allRegionsSet = new Set(allRegionsRaw)
   const allSetRegions = Array.from(allRegionsSet).sort((a, b) => {
     const aName = a.toLowerCase()
@@ -18,7 +21,8 @@ function App() {
     return 0
   })
   const allRegions = [ 'null', ...allSetRegions ]
-  const selectedFlags = region !== 'null' ? flags.filter(flag => flag.region === region) : flags
+  console.log(region)
+  const selectedFlags = region !== 'null' && region != null ? flags.filter(flag => flag.region && flag.region.includes(region)) : flags
   const sortedFlags = selectedFlags.sort((a, b) => a.name.localeCompare(b.name, 'en', { sensitivity: 'base' }))
   const handleRegionChange = (e) => {
     const selectedValue = e.target.value
