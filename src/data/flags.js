@@ -3041,6 +3041,18 @@ const flags = [
   {
     name: "Vietnam",
     code: "VN"
+  },
+  {
+    name: "Sahrawi Democratic Arab Republic",
+    code: "EH"
+  },
+  {
+    name: "Central African Republic",
+    code: "CF"
+  },
+  {
+    name: "Cyprus",
+    code: "CY"
   }
 ]
 
