@@ -4,7 +4,9 @@ import Flag from "react-world-flags";
 import flags from "../data/flags";
 
 function App() {
-  const [region, setRegion] = useState(localStorage.getItem('region') || 'null')
+  // const [region, setRegion] = useState(localStorage.getItem('region') ||
+  // 'null')
+  const [region, setRegion] = useState('null')
   const allRegionsRaw = flags.filter(flag => flag.hasOwnProperty("region") && flag.region != null).reduce((acc, curr) => {
     const arr = acc.concat(curr.region)
     return arr
@@ -28,7 +30,7 @@ function App() {
     const selectedValue = e.target.value
     if (selectedValue !== region) {
       setRegion(selectedValue)
-      localStorage.setItem('region', selectedValue)
+      // localStorage.setItem('region', selectedValue)
     }
   }
   return (
