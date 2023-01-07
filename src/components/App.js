@@ -7,7 +7,16 @@ function App() {
   const [region, setRegion] = useState(localStorage.getItem('region') || 'null')
   const allRegionsRaw = flags.filter(flag => flag.region).map(flag => flag.region)
   const allRegionsSet = new Set(allRegionsRaw)
-  const allSetRegions = Array.from(allRegionsSet)
+  const allSetRegions = Array.from(allRegionsSet).sort((a, b) => {
+    const aName = a.toLowerCase()
+    const bName = b.toLowerCase()
+    if (aName < bName) {
+      return -1
+    } else if (bName < aName) {
+      return +1
+    } 
+    return 0
+  })
   const allRegions = [ 'null', ...allSetRegions ]
   const selectedFlags = region !== 'null' ? flags.filter(flag => flag.region === region) : flags
   const sortedFlags = selectedFlags.sort((a, b) => a.name.localeCompare(b.name, 'en', { sensitivity: 'base' }))
