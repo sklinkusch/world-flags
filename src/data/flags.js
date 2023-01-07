@@ -190,7 +190,7 @@ const flags = [
   {
     name: "Antigua and Barbuda",
     code: "AG",
-    region: ["Caribbean"],
+    region: ["America", "North America", "Anglo-America", "Caribbean"],
     black: true,
     blue: true,
     green: false,
@@ -243,7 +243,7 @@ const flags = [
   {
     name: "Argentina",
     code: "AR",
-    region: ["South America"],
+    region: ["America", "Latin America", "South America"],
     black: false,
     blue: true,
     green: false,
@@ -374,7 +374,7 @@ const flags = [
   {
     name: "Bahamas",
     code: "BS",
-    region: ["Caribbean"],
+    region: ["America", "Anglo-America", "Caribbean"],
     black: true,
     blue: true,
     green: false,
@@ -453,7 +453,7 @@ const flags = [
   {
     name: "Barbados",
     code: "BB",
-    region: ["Caribbean"],
+    region: ["America", "Anglo-America", "Caribbean"],
     black: false,
     blue: true,
     green: false,
@@ -506,7 +506,7 @@ const flags = [
   {
     name: "Belize",
     code: "BZ",
-    region: ["Central America"],
+    region: ["America", "North America", "Anglo-America", "Central America"],
     black: false,
     blue: true,
     green: false,
@@ -585,7 +585,7 @@ const flags = [
   {
     name: "Bolivia",
     code: "BO",
-    region: ["South America"],
+    region: ["America", "Latin America", "South America"],
     black: false,
     blue: false,
     green: true,
@@ -664,7 +664,7 @@ const flags = [
   {
     name: "Brazil",
     code: "BR",
-    region: ["South America"],
+    region: ["America", "Latin America", "South America"],
     black: false,
     blue: true,
     green: true,
@@ -795,7 +795,7 @@ const flags = [
   {
     name: "Chile",
     code: "CL",
-    region: ["South America"],
+    region: ["America", "Latin America", "South America"],
     black: false,
     blue: true,
     green: false,
@@ -874,7 +874,7 @@ const flags = [
   {
     name: "Costa Rica",
     code: "CR",
-    region: ["Central America"],
+    region: ["America", "North America","Central America", "Latin America"],
     black: false,
     blue: true,
     green: false,
@@ -953,7 +953,7 @@ const flags = [
   {
     name: "Dominica",
     code: "DM",
-    region: ["Caribbean"],
+    region: ["America", "Anglo-America","Caribbean"],
     black: true,
     blue: false,
     green: true,
@@ -980,7 +980,7 @@ const flags = [
   {
     name: "Dominican Republic",
     code: "DO",
-    region: ["Caribbean"],
+    region: ["America", "North America", "Caribbean", "Latin America"],
     black: false,
     blue: false,
     green: false,
@@ -1033,7 +1033,7 @@ const flags = [
   {
     name: "Ecuador",
     code: "EC",
-    region: ["South America"],
+    region: ["America", "South America", "Latin America"],
     black: false,
     blue: true,
     green: false,
@@ -1060,7 +1060,7 @@ const flags = [
   {
     name: "El Salvador",
     code: "SV",
-    region: ["Central America"],
+    region: ["America", "North America", "Central America", "Latin America"],
     black: false,
     blue: true,
     green: false,
@@ -1373,7 +1373,7 @@ const flags = [
   {
     name: "Grenada",
     code: "GD",
-    region: ["Caribbean"],
+    region: ["America", "North America", "Caribbean", "Anglo-America"],
     black: false,
     blue: false,
     green: true,
@@ -1426,7 +1426,7 @@ const flags = [
   {
     name: "Guatemala",
     code: "GT",
-    region: ["Central America"],
+    region: ["America", "North America", "Central America", "Latin America"],
     black: false,
     blue: true,
     green: false,
@@ -1505,7 +1505,7 @@ const flags = [
   {
     name: "Guyana",
     code: "GY",
-    region: ["South America"],
+    region: ["America", "South America", "Anglo-America"],
     black: true,
     blue: false,
     green: true,
@@ -1532,7 +1532,7 @@ const flags = [
   {
     name: "Haiti",
     code: "HT",
-    region: ["Caribbean"],
+    region: ["America", "North America", "Caribbean", "French America"],
     black: false,
     blue: true,
     green: false,
@@ -1559,7 +1559,7 @@ const flags = [
   {
     name: "Honduras",
     code: "HN",
-    region: ["Central America"],
+    region: ["America", "North America", "Central America", "Latin America"],
     black: false,
     blue: true,
     green: false,
@@ -1794,7 +1794,7 @@ const flags = [
   {
     name: "Jamaica",
     code: "JM",
-    region: ["Caribbean"],
+    region: ["America", "North America", "Caribbean", "Anglo-America"],
     black: true,
     blue: false,
     green: true,
@@ -1951,7 +1951,7 @@ const flags = [
   {
     name: "Canada",
     code: "CA",
-    region: ["North America"],
+    region: ["America", "North America", "Anglo-America", "French America"],
     black: false,
     blue: false,
     green: false,
@@ -2134,7 +2134,7 @@ const flags = [
   {
     name: "Colombia",
     code: "CO",
-    region: ["South America"],
+    region: ["America", "South America", "Latin America"],
     black: false,
     blue: true,
     green: false,
@@ -2343,7 +2343,7 @@ const flags = [
   {
     name: "Cuba",
     code: "CU",
-    region: ["Caribbean"],
+    region: ["America", "North America", "Caribbean", "Latin America"],
     black: false,
     blue: true,
     green: false,
@@ -2736,7 +2736,7 @@ const flags = [
   {
     name: "Mexico",
     code: "MX",
-    region: ["North America"]
+    region: ["America", "North America", "Latin America"]
   },
   {
     name: "Micronesia",
@@ -2781,7 +2781,7 @@ const flags = [
   {
     name: "Nicaragua",
     code: "NI",
-    region: ["Central America"]
+    region: ["America", "North America", "Central America", "Latin America"]
   },
   {
     name: "Netherlands",
@@ -2830,7 +2830,7 @@ const flags = [
   {
     name: "Panama",
     code: "PA",
-    region: ["Central America"]
+    region: ["America", "North America", "Central America", "South America", "Latin America"]
   },
   {
     name: "Papua New Guinea",
@@ -2839,12 +2839,12 @@ const flags = [
   {
     name: "Paraguay",
     code: "PY",
-    region: ["South America"]
+    region: ["America", "South America", "Latin America"]
   },
   {
     name: "Peru",
     code: "PE",
-    region: ["South America"]
+    region: ["America", "South America", "Latin America"]
   },
   {
     name: "Philippines",
@@ -2949,17 +2949,17 @@ const flags = [
   {
     name: "St. Kitts and Nevis",
     code: "KN",
-    region: ["Caribbean"]
+    region: ["America", "North America", "Caribbean", "Anglo-America"]
   },
   {
     name: "St. Lucia",
     code: "LC",
-    region: ["Caribbean"]
+    region: ["America", "North America", "Caribbean", "Anglo-America"]
   },
   {
     name: "St. Vincent and the Grenadines",
     code: "VC",
-    region: ["Caribbean"]
+    region: ["America", "North America", "Caribbean", "Anglo-America"]
   },
   {
     name: "South Africa",
@@ -2976,7 +2976,7 @@ const flags = [
   {
     name: "Suriname",
     code: "SR",
-    region: ["South America"]
+    region: ["America", "South America", "Dutch America"]
   },
   {
     name: "Syria",
@@ -3001,7 +3001,7 @@ const flags = [
   {
     name: "Trinidad and Tobago",
     code: "TT",
-    region: ["Caribbean"]
+    region: ["America", "North America", "Caribbean", "South America", "Anglo-America"]
   },
   {
     name: "Chad",
@@ -3042,7 +3042,7 @@ const flags = [
   {
     name: "Uruguay",
     code: "UY",
-    region: ["South America"]
+    region: ["America", "South America", "Latin America"]
   },
   {
     name: "Uzbekistan",
@@ -3059,7 +3059,7 @@ const flags = [
   {
     name: "Venezuela",
     code: "VE",
-    region: ["South America"]
+    region: ["America", "South America", "Latin America"]
   },
   {
     name: "United Arab Emirates",
@@ -3068,7 +3068,7 @@ const flags = [
   {
     name: "United States",
     code: "US",
-    region: ["North America"]
+    region: ["America", "North America", "Anglo-America"]
   },
   {
     name: "United Kingdom",
