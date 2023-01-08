@@ -34,6 +34,7 @@ const flags = [
   {
     name: "Afghanistan",
     code: "AF",
+    region: ["Asia", "Central Asia", "South Asia"],
     black: true,
     blue: false,
     green: true,
@@ -60,7 +61,7 @@ const flags = [
   {
     name: "Egypt",
     code: "EG",
-    region: ["Africa", "North Africa", "Mediterranean Countries", "Red Sea Countries"],
+    region: ["Africa", "North Africa", "Mediterranean Countries", "Red Sea Countries", "Asia", "Western Asia"],
     black: true,
     blue: false,
     green: false,
@@ -276,7 +277,7 @@ const flags = [
   {
     name: "Armenia",
     code: "AM",
-    region: ["Europe", "Eastern Europe", "Asia", "Caucasus", "Former USSR"],
+    region: ["Europe", "Eastern Europe", "Asia", "Western Asia", "Caucasus", "Former USSR"],
     black: false,
     blue: true,
     green: false,
@@ -303,7 +304,7 @@ const flags = [
   {
     name: "Azerbaijan",
     code: "AZ",
-    region: ["Europe", "Eastern Europe", "Asia", "Caucasus", "Former USSR"],
+    region: ["Europe", "Eastern Europe", "Asia", "Western Asia", "Caucasus", "Former USSR", "Caspian Sea Countries"],
     black: false,
     blue: true,
     green: true,
@@ -410,6 +411,7 @@ const flags = [
   {
     name: "Bahrain",
     code: "BH",
+    region: ["Asia", "Western Asia", "Arabian Peninsula", "Persian Gulf Countries"],
     black: false,
     blue: false,
     green: false,
@@ -436,6 +438,7 @@ const flags = [
   {
     name: "Bangladesh",
     code: "BD",
+    region: ["Asia", "South Asia", "Indian Ocean Countries"],
     black: false,
     blue: false,
     green: true,
@@ -575,6 +578,7 @@ const flags = [
   {
     name: "Bhutan",
     code: "BT",
+    region: ["Asia", "South Asia"],
     black: false,
     blue: false,
     green: false,
@@ -709,6 +713,7 @@ const flags = [
   {
     name: "Brunei",
     code: "BN",
+    region: ["Asia", "Southeast Asia"],
     black: true,
     blue: false,
     green: false,
@@ -843,6 +848,7 @@ const flags = [
   {
     name: "Taiwan",
     code: "TW",
+    region: ["Asia", "East Asia"],
     black: false,
     blue: true,
     green: false,
@@ -869,6 +875,7 @@ const flags = [
   {
     name: "China",
     code: "CN",
+    region: ["Asia", "East Asia"],
     black: false,
     blue: false,
     green: false,
@@ -1353,7 +1360,7 @@ const flags = [
   {
     name: "Georgia",
     code: "GE",
-    region: ["Europe", "Eastern Europe", "Asia", "Caucasus", "Former USSR", "Black Sea Countries"],
+    region: ["Europe", "Eastern Europe", "Asia", "Western Asia", "Caucasus", "Former USSR", "Black Sea Countries"],
     black: false,
     blue: false,
     green: false,
@@ -1623,6 +1630,7 @@ const flags = [
   {
     name: "India",
     code: "IN",
+    region: ["Asia", "South Asia", "Indian Ocean Countries"],
     black: false,
     blue: true,
     green: true,
@@ -1649,6 +1657,7 @@ const flags = [
   {
     name: "Indonesia",
     code: "ID",
+    region: ["Asia", "Southeast Asia", "Indian Ocean Countries"],
     black: false,
     blue: false,
     green: false,
@@ -1675,6 +1684,7 @@ const flags = [
   {
     name: "Iraq",
     code: "IQ",
+    region: ["Asia", "Western Asia", "Persian Gulf Countries"],
     black: true,
     blue: false,
     green: false,
@@ -1701,6 +1711,7 @@ const flags = [
   {
     name: "Iran",
     code: "IR",
+    region: ["Asia", "Western Asia", "South Asia", "Persian Gulf Countries", "Indian Ocean Countries"],
     black: false,
     blue: false,
     green: true,
@@ -1781,6 +1792,7 @@ const flags = [
   {
     name: "Israel",
     code: "IL",
+    region: ["Asia", "Western Asia", "Levant", "Red Sea Countries", "Mediterranean Countries"],
     black: false,
     blue: true,
     green: false,
@@ -1861,6 +1873,7 @@ const flags = [
   {
     name: "Japan",
     code: "JP",
+    region: ["Asia", "East Asia"],
     black: false,
     blue: false,
     green: false,
@@ -1887,6 +1900,7 @@ const flags = [
   {
     name: "Yemen",
     code: "YE",
+    region: ["Asia", "Western Asia", "Arabian Peninsula", "Indian Ocean Countries", "Red Sea Countries"],
     black: true,
     blue: false,
     green: false,
@@ -1913,6 +1927,7 @@ const flags = [
   {
     name: "Jordan",
     code: "JO",
+    region: ["Asia", "Western Asia", "Red Sea Countries"],
     black: true,
     blue: false,
     green: true,
@@ -1939,6 +1954,7 @@ const flags = [
   {
     name: "Cambodia",
     code: "KH",
+    region: ["Asia", "Southeast Asia"],
     black: false,
     blue: true,
     green: false,
@@ -2046,7 +2062,7 @@ const flags = [
   {
     name: "Kazakhstan",
     code: "KZ",
-    region: ["Europe", "Eastern Europe", "Central Asia", "Former USSR"],
+    region: ["Europe", "Eastern Europe", "Asia", "Central Asia", "Former USSR", "Caspian Sea Countries"],
     black: false,
     blue: true,
     green: false,
@@ -2073,6 +2089,7 @@ const flags = [
   {
     name: "Qatar",
     code: "QA",
+    region: ["Asia", "Western Asia", "Arabian Peninsula", "Persian Gulf Countries"],
     black: false,
     blue: false,
     green: false,
@@ -2126,6 +2143,7 @@ const flags = [
   {
     name: "Kyrgyzstan",
     code: "KG",
+    region: ["Asia", "Central Asia"],
     black: false,
     blue: false,
     green: true,
@@ -2286,6 +2304,7 @@ const flags = [
   {
     name: "North Korea",
     code: "KP",
+    region: ["Asia", "East Asia"],
     black: false,
     blue: true,
     green: false,
@@ -2312,6 +2331,7 @@ const flags = [
   {
     name: "South Korea",
     code: "KR",
+    region: ["Asia", "East Asia"],
     black: true,
     blue: true,
     green: false,
@@ -2419,6 +2439,7 @@ const flags = [
   {
     name: "Kuwait",
     code: "KW",
+    region: ["Asia", "Western Asia", "Persian Gulf Countries"],
     black: true,
     blue: false,
     green: true,
@@ -2445,6 +2466,7 @@ const flags = [
   {
     name: "Laos",
     code: "LA",
+    region: ["Asia", "Southeast Asia"],
     black: false,
     blue: true,
     green: false,
@@ -2525,6 +2547,7 @@ const flags = [
   {
     name: "Lebanon",
     code: "LB",
+    region: ["Asia", "Western Asia", "Mediterranean Countries", "Levant"],
     black: false,
     blue: false,
     green: true,
@@ -2740,6 +2763,7 @@ const flags = [
   {
     name: "Malaysia",
     code: "MY",
+    region: ["Asia", "Southeast Asia"],
     black: false,
     blue: true,
     green: false,
@@ -2765,7 +2789,8 @@ const flags = [
   },
   {
     name: "Maldives",
-    code: "MV"
+    code: "MV",
+    region: ["Asia", "South Asia", "Indian Ocean Countries"]
   },
   {
     name: "Mali",
@@ -2817,7 +2842,8 @@ const flags = [
   },
   {
     name: "Mongolia",
-    code: "MN"
+    code: "MN",
+    region: ["Asia", "North Asia", "East Asia"]
   },
   {
     name: "Montenegro",
@@ -2831,7 +2857,8 @@ const flags = [
   },
   {
     name: "Myanmar",
-    code: "MM"
+    code: "MM",
+    region: ["Asia", "Southeast Asia", "Indian Ocean Countries"]
   },
   {
     name: "Namibia",
@@ -2841,6 +2868,11 @@ const flags = [
   {
     name: "Nauru",
     code: "NR"
+  },
+  {
+    name: "Nepal",
+    code: "NP",
+    region: ["Asia", "South Asia"]
   },
   {
     name: "New Zealand",
@@ -2878,7 +2910,8 @@ const flags = [
   },
   {
     name: "Oman",
-    code: "OM"
+    code: "OM",
+    region: ["Asia", "Western Asia", "Arabian Peninsula", "Persian Gulf Countries", "Indian Ocean Countries"]
   },
   {
     name: "Austria",
@@ -2887,15 +2920,18 @@ const flags = [
   },
   {
     name: "Timor-Leste",
-    code: "TL"
+    code: "TL",
+    region: ["Asia", "Southeast Asia"]
   },
   {
     name: "Pakistan",
-    code: "PK"
+    code: "PK",
+    region: ["Asia", "South Asia", "Indian Ocean Countries"]
   },
   {
     name: "Palestine",
-    code: "PS"
+    code: "PS",
+    region: ["Asia", "Western Asia", "Levant", "Mediterranean Countries"]
   },
   {
     name: "Palau",
@@ -2922,7 +2958,8 @@ const flags = [
   },
   {
     name: "Philippines",
-    code: "PH"
+    code: "PH",
+    region: ["Asia", "Southeast Asia"]
   },
   {
     name: "Poland",
@@ -2947,7 +2984,7 @@ const flags = [
   {
     name: "Russia",
     code: "RU",
-    region: ["Europe", "Eastern Europe", "Former USSR", "Asia", "North Asia", "Baltic Sea Countries", "Arctic Sea Countries", "Black Sea Countries"]
+    region: ["Europe", "Eastern Europe", "Former USSR", "Asia", "North Asia", "East Asia", "Baltic Sea Countries", "Arctic Sea Countries", "Black Sea Countries"]
   },
   {
     name: "Solomon Islands",
@@ -2974,7 +3011,8 @@ const flags = [
   },
   {
     name: "Saudi Arabia",
-    code: "SA"
+    code: "SA",
+    region: ["Asia", "Western Asia", "Arabian Peninsula", "Persian Gulf Countries", "Red Sea Countries"]
   },
   {
     name: "Sweden",
@@ -3013,7 +3051,8 @@ const flags = [
   },
   {
     name: "Singapore",
-    code: "SG"
+    code: "SG",
+    region: ["Asia", "Southeast Asia"]
   },
   {
     name: "Slovakia",
@@ -3037,7 +3076,8 @@ const flags = [
   },
   {
     name: "Sri Lanka",
-    code: "LK"
+    code: "LK",
+    region: ["Asia", "South Asia", "Indian Ocean Countries"]
   },
   {
     name: "St. Kitts and Nevis",
@@ -3076,16 +3116,23 @@ const flags = [
   },
   {
     name: "Syria",
-    code: "SY"
+    code: "SY",
+    region: ["Asia", "Western Asia", "Levant", "Mediterranean Countries"]
   },
   {
     name: "Tajikistan",
-    code: "TJ"
+    code: "TJ",
+    region: ["Asia", "Central Asia"]
   },
   {
     name: "Tanzania",
     code: "TZ",
     region: ["Africa", "East Africa", "Southern Africa", "Indian Ocean Countries"]
+  },
+  {
+    name: "Thailand",
+    code: "TH",
+    region: ["Asia", "Southeast Asia"]
   },
   {
     name: "Togo",
@@ -3119,11 +3166,12 @@ const flags = [
   {
     name: "Turkey",
     code: "TR",
-    region: ["Europe", "Eastern Europe", "Asia", "Mediterranean Countries", "Black Sea Countries"]
+    region: ["Europe", "Eastern Europe", "Asia", "Western Asia", "Mediterranean Countries", "Black Sea Countries"]
   },
   {
     name: "Turkmenistan",
-    code: "TM"
+    code: "TM",
+    region: ["Asia", "Central Asia", "Caspian Sea Countries"]
   },
   {
     name: "Tuvalu",
@@ -3151,7 +3199,8 @@ const flags = [
   },
   {
     name: "Uzbekistan",
-    code: "UZ"
+    code: "UZ",
+    region: ["Asia", "Central Asia"]
   },
   {
     name: "Vanuatu",
@@ -3169,7 +3218,8 @@ const flags = [
   },
   {
     name: "United Arab Emirates",
-    code: "AE"
+    code: "AE",
+    region: ["Asia", "Western Asia", "Arabian Peninsula", "Persian Gulf Countries"]
   },
   {
     name: "United States",
@@ -3183,7 +3233,8 @@ const flags = [
   },
   {
     name: "Vietnam",
-    code: "VN"
+    code: "VN",
+    region: ["Asia", "East Asia", "Southeast Asia"]
   },
   {
     name: "Sahrawi Democratic Arab Republic",
