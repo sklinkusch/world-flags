@@ -498,7 +498,7 @@ const flags = [
   {
     name: "Belgium",
     code: "BE",
-    region: ["Europe", "Western Europe", "North Sea Countries"],
+    region: ["Europe", "Western Europe", "North Sea Countries", "German Language Countries"],
     black: true,
     blue: false,
     green: false,
@@ -687,7 +687,7 @@ const flags = [
   {
     name: "Brazil",
     code: "BR",
-    region: ["America", "Latin America", "South America", "Atlantic Ocean Countries"],
+    region: ["America", "Latin America", "South America", "Atlantic Ocean Countries", "German Language Countries"],
     black: false,
     blue: true,
     green: true,
@@ -957,7 +957,7 @@ const flags = [
   {
     name: "Germany",
     code: "DE",
-    region: ["Europe", "Western Europe", "Central Europe", "North Sea Countries", "Baltic Sea Countries"],
+    region: ["Europe", "Western Europe", "Central Europe", "North Sea Countries", "Baltic Sea Countries", "German Language Countries"],
     black: true,
     blue: false,
     green: false,
@@ -1821,7 +1821,7 @@ const flags = [
   {
     name: "Italy",
     code: "IT",
-    region: ["Europe", "Southern Europe", "Appenine Peninsula", "Mediterranean Countries"],
+    region: ["Europe", "Southern Europe", "Appenine Peninsula", "Mediterranean Countries", "German Language Countries"],
     black: false,
     blue: false,
     green: true,
@@ -2631,7 +2631,7 @@ const flags = [
   {
     name: "Liechtenstein",
     code: "LI",
-    region: ["Europe", "Western Europe", "Central Europe"],
+    region: ["Europe", "Western Europe", "Central Europe", "German Language Countries"],
     black: false,
     blue: true,
     green: false,
@@ -2685,7 +2685,7 @@ const flags = [
   {
     name: "Luxembourg",
     code: "LU",
-    region: ["Europe", "Western Europe"],
+    region: ["Europe", "Western Europe", "German Language Countries"],
     black: false,
     blue: true,
     green: false,
@@ -2923,7 +2923,7 @@ const flags = [
   {
     name: "Austria",
     code: "AT",
-    region: ["Europe", "Western Europe", "Central Europe"]
+    region: ["Europe", "Western Europe", "Central Europe", "German Language Countries"]
   },
   {
     name: "Timor-Leste",
@@ -2973,7 +2973,7 @@ const flags = [
   {
     name: "Poland",
     code: "PL",
-    region: ["Europe", "Eastern Europe", "Central Europe", "Baltic Sea Countries"]
+    region: ["Europe", "Eastern Europe", "Central Europe", "Baltic Sea Countries", "German Language Countries"]
   },
   {
     name: "Portugal",
@@ -3033,7 +3033,7 @@ const flags = [
   {
     name: "Switzerland",
     code: "CH",
-    region: ["Europe", "Western Europe", "Central Europe"]
+    region: ["Europe", "Western Europe", "Central Europe", "German Language Countries"]
   },
   {
     name: "Senegal",
@@ -3068,7 +3068,7 @@ const flags = [
   {
     name: "Slovakia",
     code: "SK",
-    region: ["Europe", "Eastern Europe", "Central Europe"]
+    region: ["Europe", "Eastern Europe", "Central Europe", "German Language Countries"]
   },
   {
     name: "Slovenia",
