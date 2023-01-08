@@ -65,7 +65,7 @@ function App() {
         }}>
           {sortedFlags.map(flag => (<div key={flag.code} sx={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
             <Flag code={flag.code} sx={{height: "45px", maxWidth: "100px", mx: "8px", my: "12px"}} title={flag.name} />
-            <p sx={{ fontSize: "12px", textAlign: "center", maxWidth: "90px"}}>{flag.name}</p>
+            <p sx={{ fontSize: "12px", textAlign: "center", maxWidth: "90px", px: "5px"}}>{flag.name}</p>
             </div>))}
         </div>
       </header>

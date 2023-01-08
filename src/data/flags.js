@@ -1821,7 +1821,7 @@ const flags = [
   {
     name: "Italy",
     code: "IT",
-    region: ["Europe", "Southern Europe", "Appenine Peninsula", "Mediterranean Countries", "German Language Countries", "French Language Countries"],
+    region: ["Europe", "Southern Europe", "Appenine Peninsula", "Mediterranean Countries", "German Language Countries", "French Language Countries", "Italian Language Countries"],
     black: false,
     blue: false,
     green: true,
@@ -2388,7 +2388,7 @@ const flags = [
   {
     name: "Croatia",
     code: "HR",
-    region: ["Europe", "Southern Europe", "Balkans Peninsula", "Mediterranean Countries"],
+    region: ["Europe", "Southern Europe", "Balkans Peninsula", "Mediterranean Countries", "Italian Language Countries"],
     black: false,
     blue: true,
     green: false,
@@ -3013,7 +3013,7 @@ const flags = [
   {
     name: "San Marino",
     code: "SM",
-    region: ["Europe", "Southern Europe", "Appenine Peninsula"]
+    region: ["Europe", "Southern Europe", "Appenine Peninsula", "Italian Language Countries"]
   },
   {
     name: "São Tomé and Príncipe",
@@ -3033,7 +3033,7 @@ const flags = [
   {
     name: "Switzerland",
     code: "CH",
-    region: ["Europe", "Western Europe", "Central Europe", "German Language Countries", "French Language Countries"]
+    region: ["Europe", "Western Europe", "Central Europe", "German Language Countries", "French Language Countries", "Italian Language Countries"]
   },
   {
     name: "Senegal",
@@ -3073,7 +3073,7 @@ const flags = [
   {
     name: "Slovenia",
     code: "SI",
-    region: ["Europe", "Southern Europe", "Balkans Peninsula", "Mediterranean Countries"]
+    region: ["Europe", "Southern Europe", "Balkans Peninsula", "Mediterranean Countries", "Italian Language Countries"]
   },
   {
     name: "Somalia",
@@ -3223,7 +3223,7 @@ const flags = [
   {
     name: "Vatican City",
     code: "VA",
-    region: ["Europe", "Southern Europe", "Appenine Peninsula"]
+    region: ["Europe", "Southern Europe", "Appenine Peninsula", "Italian Language Countries"]
   },
   {
     name: "Venezuela",
