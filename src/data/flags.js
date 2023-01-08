@@ -223,7 +223,7 @@ const flags = [
   {
     name: "Equatorial Guinea",
     code: "GQ",
-    region: ["Africa", "Central Africa", "Atlantic Ocean Countries"],
+    region: ["Africa", "Central Africa", "Atlantic Ocean Countries", "French Language Countries"],
     black: false,
     blue: true,
     green: true,
@@ -498,7 +498,7 @@ const flags = [
   {
     name: "Belgium",
     code: "BE",
-    region: ["Europe", "Western Europe", "North Sea Countries", "German Language Countries"],
+    region: ["Europe", "Western Europe", "North Sea Countries", "German Language Countries", "French Language Countries"],
     black: true,
     blue: false,
     green: false,
@@ -552,7 +552,7 @@ const flags = [
   {
     name: "Benin",
     code: "BJ",
-    region: ["Africa", "West Africa", "Atlantic Ocean Countries"],
+    region: ["Africa", "West Africa", "Atlantic Ocean Countries", "French Language Countries"],
     black: false,
     blue: false,
     green: true,
@@ -768,7 +768,7 @@ const flags = [
   {
     name: "Burkina Faso",
     code: "BF",
-    region: ["Africa", "West Africa"],
+    region: ["Africa", "West Africa", "French Language Countries"],
     black: false,
     blue: false,
     green: true,
@@ -795,7 +795,7 @@ const flags = [
   {
     name: "Burundi",
     code: "BI",
-    region: ["Africa", "Central Africa", "East Africa"],
+    region: ["Africa", "Central Africa", "East Africa", "French Language Countries"],
     black: false,
     blue: false,
     green: true,
@@ -1038,7 +1038,7 @@ const flags = [
   {
     name: "Djibouti",
     code: "DJ",
-    region: ["Africa", "North Africa", "East Africa", "Red Sea Countries", "Arabic Language Countries"],
+    region: ["Africa", "North Africa", "East Africa", "Red Sea Countries", "Arabic Language Countries", "French Language Countries"],
     black: false,
     blue: true,
     green: true,
@@ -1119,7 +1119,7 @@ const flags = [
   {
     name: "Côte d'Ivoire",
     code: "CI",
-    region: ["Africa", "West Africa", "Atlantic Ocean Countries"],
+    region: ["Africa", "West Africa", "Atlantic Ocean Countries", "French Language Countries"],
     black: false,
     blue: false,
     green: true,
@@ -1281,7 +1281,7 @@ const flags = [
   {
     name: "France",
     code: "FR",
-    region: ["Europe", "Western Europe", "Mediterranean Countries", "Atlantic Ocean Countries", "North Sea Countries", "Caribbean Sea Countries", "Indian Ocean Countries", "Pacific Ocean Countries", "Southern Ocean Countries", "Africa", "East Africa", "Southern Africa", "Australia and Oceania", "South America", "North America", "French America", "Caribbean", "Caribbean Sea Countries"],
+    region: ["Europe", "Western Europe", "Mediterranean Countries", "Atlantic Ocean Countries", "North Sea Countries", "Caribbean Sea Countries", "Indian Ocean Countries", "Pacific Ocean Countries", "Southern Ocean Countries", "Africa", "East Africa", "Southern Africa", "Australia and Oceania", "South America", "North America", "America", "Caribbean", "Caribbean Sea Countries", "French Language Countries"],
     black: false,
     blue: true,
     green: false,
@@ -1309,7 +1309,7 @@ const flags = [
     name: "Gabon",
     code: "GA",
     black: false,
-    region: ["Africa", "Central Africa", "Atlantic Ocean Countries"],
+    region: ["Africa", "Central Africa", "Atlantic Ocean Countries", "French Language Countries"],
     blue: true,
     green: true,
     orange: false,
@@ -1497,7 +1497,7 @@ const flags = [
   {
     name: "Guinea",
     code: "GN",
-    region: ["Africa", "West Africa", "Atlantic Ocean Countries"],
+    region: ["Africa", "West Africa", "Atlantic Ocean Countries", "French Language Countries"],
     black: false,
     blue: false,
     green: true,
@@ -1578,7 +1578,7 @@ const flags = [
   {
     name: "Haiti",
     code: "HT",
-    region: ["America", "North America", "Caribbean", "French America", "Caribbean Sea Countries"],
+    region: ["America", "North America", "Caribbean", "Caribbean Sea Countries", "French Language Countries"],
     black: false,
     blue: true,
     green: false,
@@ -1821,7 +1821,7 @@ const flags = [
   {
     name: "Italy",
     code: "IT",
-    region: ["Europe", "Southern Europe", "Appenine Peninsula", "Mediterranean Countries", "German Language Countries"],
+    region: ["Europe", "Southern Europe", "Appenine Peninsula", "Mediterranean Countries", "German Language Countries", "French Language Countries"],
     black: false,
     blue: false,
     green: true,
@@ -1983,7 +1983,7 @@ const flags = [
   {
     name: "Cameroon",
     code: "CM",
-    region: ["Africa", "Central Africa", "Atlantic Ocean Countries", "English Language Countries"],
+    region: ["Africa", "Central Africa", "Atlantic Ocean Countries", "English Language Countries", "French Language Countries"],
     black: false,
     blue: false,
     green: true,
@@ -2010,7 +2010,7 @@ const flags = [
   {
     name: "Canada",
     code: "CA",
-    region: ["America", "North America", "French America", "Atlantic Ocean Countries", "Arctic Sea Countries", "Pacific Ocean Countries", "English Language Countries"],
+    region: ["America", "North America", "Atlantic Ocean Countries", "Arctic Sea Countries", "Pacific Ocean Countries", "English Language Countries", "French Language Countries"],
     black: false,
     blue: false,
     green: false,
@@ -2226,7 +2226,7 @@ const flags = [
   {
     name: "Comoros",
     code: "KM",
-    region: ["Africa", "East Africa", "Indian Ocean Countries", "Arabic Language Countries"],
+    region: ["Africa", "East Africa", "Indian Ocean Countries", "Arabic Language Countries", "French Language Countries"],
     black: false,
     blue: true,
     green: true,
@@ -2253,7 +2253,7 @@ const flags = [
   {
     name: "Democratic Republic of the Congo",
     code: "CD",
-    region: ["Africa", "Central Africa", "Southern Africa", "Atlantic Ocean Countries"],
+    region: ["Africa", "Central Africa", "Southern Africa", "Atlantic Ocean Countries", "French Language Countries"],
     black: false,
     blue: true,
     green: false,
@@ -2280,7 +2280,7 @@ const flags = [
   {
     name: "Republic of the Congo",
     code: "CG",
-    region: ["Africa", "Central Africa", "Atlantic Ocean Countries"],
+    region: ["Africa", "Central Africa", "Atlantic Ocean Countries", "French Language Countries"],
     black: false,
     blue: false,
     green: true,
@@ -2685,7 +2685,7 @@ const flags = [
   {
     name: "Luxembourg",
     code: "LU",
-    region: ["Europe", "Western Europe", "German Language Countries"],
+    region: ["Europe", "Western Europe", "German Language Countries", "French Language Countries"],
     black: false,
     blue: true,
     green: false,
@@ -2712,7 +2712,7 @@ const flags = [
   {
     name: "Madagascar",
     code: "MG",
-    region: ["Africa", "East Africa", "Southern Africa", "Indian Ocean Countries"],
+    region: ["Africa", "East Africa", "Southern Africa", "Indian Ocean Countries", "French Language Countries"],
     black: false,
     blue: false,
     green: true,
@@ -2798,7 +2798,7 @@ const flags = [
   {
     name: "Mali",
     code: "ML",
-    region: ["Africa", "North Africa", "West Africa"]
+    region: ["Africa", "North Africa", "West Africa", "French Language Countries"]
   },
   {
     name: "Malta",
@@ -2823,7 +2823,7 @@ const flags = [
   {
     name: "Mauritius",
     code: "MU",
-    region: ["Africa", "East Africa", "Southern Africa", "Indian Ocean Countries", "English Language Countries"]
+    region: ["Africa", "East Africa", "Southern Africa", "Indian Ocean Countries", "English Language Countries", "French Language Countries"]
   },
   {
     name: "Mexico",
@@ -2843,7 +2843,7 @@ const flags = [
   {
     name: "Monaco",
     code: "MC",
-    region: ["Europe", "Western Europe", "Mediterranean Countries"]
+    region: ["Europe", "Western Europe", "Mediterranean Countries", "French Language Countries"]
   },
   {
     name: "Mongolia",
@@ -2898,7 +2898,7 @@ const flags = [
   {
     name: "Niger",
     code: "NE",
-    region: ["Africa", "North Africa", "West Africa"]
+    region: ["Africa", "North Africa", "West Africa", "French Language Countries"]
   },
   {
     name: "Nigeria",
@@ -2983,7 +2983,7 @@ const flags = [
   {
     name: "Rwanda",
     code: "RW",
-    region: ["Africa", "Central Africa", "East Africa", "English Language Countries"]
+    region: ["Africa", "Central Africa", "East Africa", "English Language Countries", "French Language Countries"]
   },
   {
     name: "Romania",
@@ -3033,12 +3033,12 @@ const flags = [
   {
     name: "Switzerland",
     code: "CH",
-    region: ["Europe", "Western Europe", "Central Europe", "German Language Countries"]
+    region: ["Europe", "Western Europe", "Central Europe", "German Language Countries", "French Language Countries"]
   },
   {
     name: "Senegal",
     code: "SN",
-    region: ["Africa", "West Africa", "Atlantic Ocean Countries"]
+    region: ["Africa", "West Africa", "Atlantic Ocean Countries", "French Language Countries"]
   },
   {
     name: "Serbia",
@@ -3048,7 +3048,7 @@ const flags = [
   {
     name: "Seychelles",
     code: "SC",
-    region: ["Africa", "East Africa", "Southern Africa", "Indian Ocean Countries", "English Language Countries"]
+    region: ["Africa", "East Africa", "Southern Africa", "Indian Ocean Countries", "English Language Countries", "French Language Countries"]
   },
   {
     name: "Sierra Leone",
@@ -3148,7 +3148,7 @@ const flags = [
   {
     name: "Togo",
     code: "TG",
-    region: ["Africa", "West Africa", "Atlantic Ocean Countries"]
+    region: ["Africa", "West Africa", "Atlantic Ocean Countries", "French Language Countries"]
   },
   {
     name: "Tonga",
@@ -3163,7 +3163,7 @@ const flags = [
   {
     name: "Chad",
     code: "TD",
-    region: ["Africa", "North Africa", "Central Africa", "Arabic Language Countries"]
+    region: ["Africa", "North Africa", "Central Africa", "Arabic Language Countries", "French Language Countries"]
   },
   {
     name: "Czechia",
@@ -3218,7 +3218,7 @@ const flags = [
   {
     name: "Vanuatu",
     code: "VU",
-    region: ["Australia and Oceania", "Pacific Ocean Countries", "English Language Countries"]
+    region: ["Australia and Oceania", "Pacific Ocean Countries", "English Language Countries", "French Language Countries"]
   },
   {
     name: "Vatican City",
@@ -3238,12 +3238,12 @@ const flags = [
   {
     name: "United States",
     code: "US",
-    region: ["America", "North America", "Atlantic Ocean Countries", "Arctic Sea Countries", "Caribbean Sea Countries", "Gulf of Mexico Countries", "Pacific Ocean Countries", "English Language Countries"]
+    region: ["America", "North America", "Atlantic Ocean Countries", "Arctic Sea Countries", "Caribbean Sea Countries", "Gulf of Mexico Countries", "Pacific Ocean Countries", "English Language Countries", "French Language Countries"]
   },
   {
     name: "United Kingdom",
     code: "GB",
-    region: ["Europe", "Western Europe", "British Isles", "Atlantic Ocean Countries", "North Sea Countries", "Caribbean Sea Countries", "Caribbean", "North America", "South America", "America", "Indian Ocean Countries", "English Language Countries"]
+    region: ["Europe", "Western Europe", "British Isles", "Atlantic Ocean Countries", "North Sea Countries", "Caribbean Sea Countries", "Caribbean", "North America", "South America", "America", "Indian Ocean Countries", "English Language Countries", "French Language Countries"]
   },
   {
     name: "Vietnam",
@@ -3258,7 +3258,7 @@ const flags = [
   {
     name: "Central African Republic",
     code: "CF",
-    region: ["Africa", "Central Africa"]
+    region: ["Africa", "Central Africa", "French Language Countries"]
   },
   {
     name: "Cyprus",
