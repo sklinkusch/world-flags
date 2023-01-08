@@ -250,7 +250,7 @@ const flags = [
   {
     name: "Argentina",
     code: "AR",
-    region: ["America", "Latin America", "South America", "Atlantic Ocean Countries"],
+    region: ["America", "Latin America", "South America", "Atlantic Ocean Countries", "Southern Ocean Countries"],
     black: false,
     blue: true,
     green: false,
@@ -358,6 +358,7 @@ const flags = [
   {
     name: "Australia",
     code: "AU",
+    region: ["Australia and Oceania", "Indian Ocean Countries", "Pacific Ocean Countries", "Southern Ocean Countries"],
     black: false,
     blue: true,
     green: false,
@@ -821,7 +822,7 @@ const flags = [
   {
     name: "Chile",
     code: "CL",
-    region: ["America", "Latin America", "South America", "Atlantic Ocean Countries"],
+    region: ["America", "Latin America", "South America", "Atlantic Ocean Countries", "Pacific Ocean Countries", "Southern Ocean Countries"],
     black: false,
     blue: true,
     green: false,
@@ -848,7 +849,7 @@ const flags = [
   {
     name: "Taiwan",
     code: "TW",
-    region: ["Asia", "East Asia"],
+    region: ["Asia", "East Asia", "Pacific Ocean Countries"],
     black: false,
     blue: true,
     green: false,
@@ -875,7 +876,7 @@ const flags = [
   {
     name: "China",
     code: "CN",
-    region: ["Asia", "East Asia"],
+    region: ["Asia", "East Asia", "Pacific Ocean Countries"],
     black: false,
     blue: false,
     green: false,
@@ -902,7 +903,7 @@ const flags = [
   {
     name: "Costa Rica",
     code: "CR",
-    region: ["America", "North America","Central America", "Latin America", "Caribbean Sea Countries"],
+    region: ["America", "North America","Central America", "Latin America", "Caribbean Sea Countries", "Pacific Ocean Countries"],
     black: false,
     blue: true,
     green: false,
@@ -1064,7 +1065,7 @@ const flags = [
   {
     name: "Ecuador",
     code: "EC",
-    region: ["America", "South America", "Latin America"],
+    region: ["America", "South America", "Latin America", "Pacific Ocean Countries"],
     black: false,
     blue: true,
     green: false,
@@ -1091,7 +1092,7 @@ const flags = [
   {
     name: "El Salvador",
     code: "SV",
-    region: ["America", "North America", "Central America", "Latin America"],
+    region: ["America", "North America", "Central America", "Latin America", "Pacific Ocean Countries"],
     black: false,
     blue: true,
     green: false,
@@ -1226,6 +1227,7 @@ const flags = [
   {
     name: "Fiji",
     code: "FJ",
+    region: ["Australia and Oceania", "Pacific Ocean Countries"],
     black: false,
     blue: true,
     green: false,
@@ -1279,7 +1281,7 @@ const flags = [
   {
     name: "France",
     code: "FR",
-    region: ["Europe", "Western Europe", "Mediterranean Countries", "Atlantic Ocean Countries", "North Sea Countries", "Caribbean Sea Countries"],
+    region: ["Europe", "Western Europe", "Mediterranean Countries", "Atlantic Ocean Countries", "North Sea Countries", "Caribbean Sea Countries", "Indian Ocean Countries", "Pacific Ocean Countries", "Southern Ocean Countries", "Africa", "East Africa", "Southern Africa", "Australia and Oceania", "South America", "North America", "French America", "Caribbean", "Caribbean Sea Countries"],
     black: false,
     blue: true,
     green: false,
@@ -1468,7 +1470,7 @@ const flags = [
   {
     name: "Guatemala",
     code: "GT",
-    region: ["America", "North America", "Central America", "Latin America", "Caribbean Sea Countries"],
+    region: ["America", "North America", "Central America", "Latin America", "Caribbean Sea Countries", "Pacific Ocean Countries"],
     black: false,
     blue: true,
     green: false,
@@ -1603,7 +1605,7 @@ const flags = [
   {
     name: "Honduras",
     code: "HN",
-    region: ["America", "North America", "Central America", "Latin America", "Caribbean Sea Countries"],
+    region: ["America", "North America", "Central America", "Latin America", "Caribbean Sea Countries", "Pacific Ocean Countries"],
     black: false,
     blue: true,
     green: false,
@@ -1657,7 +1659,7 @@ const flags = [
   {
     name: "Indonesia",
     code: "ID",
-    region: ["Asia", "Southeast Asia", "Indian Ocean Countries"],
+    region: ["Asia", "Southeast Asia", "Indian Ocean Countries", "Pacific Ocean Countries"],
     black: false,
     blue: false,
     green: false,
@@ -1873,7 +1875,7 @@ const flags = [
   {
     name: "Japan",
     code: "JP",
-    region: ["Asia", "East Asia"],
+    region: ["Asia", "East Asia", "Pacific Ocean Countries"],
     black: false,
     blue: false,
     green: false,
@@ -1954,7 +1956,7 @@ const flags = [
   {
     name: "Cambodia",
     code: "KH",
-    region: ["Asia", "Southeast Asia"],
+    region: ["Asia", "Southeast Asia", "Pacific Ocean Countries"],
     black: false,
     blue: true,
     green: false,
@@ -2008,7 +2010,7 @@ const flags = [
   {
     name: "Canada",
     code: "CA",
-    region: ["America", "North America", "Anglo-America", "French America", "Atlantic Ocean Countries", "Arctic Sea Countries"],
+    region: ["America", "North America", "Anglo-America", "French America", "Atlantic Ocean Countries", "Arctic Sea Countries", "Pacific Ocean Countries"],
     black: false,
     blue: false,
     green: false,
@@ -2170,6 +2172,7 @@ const flags = [
   {
     name: "Kiribati",
     code: "KI",
+    region: ["Australia and Oceania", "Pacific Ocean Countries"],
     black: false,
     blue: true,
     green: false,
@@ -2196,7 +2199,7 @@ const flags = [
   {
     name: "Colombia",
     code: "CO",
-    region: ["America", "South America", "Latin America", "Caribbean Sea Countries"],
+    region: ["America", "South America", "Latin America", "Caribbean Sea Countries", "Pacific Ocean Countries"],
     black: false,
     blue: true,
     green: false,
@@ -2304,7 +2307,7 @@ const flags = [
   {
     name: "North Korea",
     code: "KP",
-    region: ["Asia", "East Asia"],
+    region: ["Asia", "East Asia", "Pacific Ocean Countries"],
     black: false,
     blue: true,
     green: false,
@@ -2331,7 +2334,7 @@ const flags = [
   {
     name: "South Korea",
     code: "KR",
-    region: ["Asia", "East Asia"],
+    region: ["Asia", "East Asia", "Pacific Ocean Countries"],
     black: true,
     blue: true,
     green: false,
@@ -2763,7 +2766,7 @@ const flags = [
   {
     name: "Malaysia",
     code: "MY",
-    region: ["Asia", "Southeast Asia"],
+    region: ["Asia", "Southeast Asia", "Pacific Ocean Countries"],
     black: false,
     blue: true,
     green: false,
@@ -2809,7 +2812,8 @@ const flags = [
   },
   {
     name: "Marshall Islands",
-    code: "MH"
+    code: "MH",
+    region: ["Australia and Oceania", "Pacific Ocean Countries"]
   },
   {
     name: "Mauritania",
@@ -2828,7 +2832,8 @@ const flags = [
   },
   {
     name: "Micronesia",
-    code: "FM"
+    code: "FM",
+    region: ["Australia and Oceania", "Pacific Ocean Countries"]
   },
   {
     name: "Moldova",
@@ -2867,7 +2872,8 @@ const flags = [
   },
   {
     name: "Nauru",
-    code: "NR"
+    code: "NR",
+    region: ["Australia and Oceania", "Pacific Ocean Countries"]
   },
   {
     name: "Nepal",
@@ -2876,12 +2882,13 @@ const flags = [
   },
   {
     name: "New Zealand",
-    code: "NZ"
+    code: "NZ",
+    region: ["Australia and Oceania", "Pacific Ocean Countries", "Southern Ocean Countries"]
   },
   {
     name: "Nicaragua",
     code: "NI",
-    region: ["America", "North America", "Central America", "Latin America", "Caribbean Sea Countries"]
+    region: ["America", "North America", "Central America", "Latin America", "Caribbean Sea Countries", "Pacific Ocean Countries"]
   },
   {
     name: "Netherlands",
@@ -2921,7 +2928,7 @@ const flags = [
   {
     name: "Timor-Leste",
     code: "TL",
-    region: ["Asia", "Southeast Asia"]
+    region: ["Asia", "Southeast Asia", "Pacific Ocean Countries"]
   },
   {
     name: "Pakistan",
@@ -2935,16 +2942,18 @@ const flags = [
   },
   {
     name: "Palau",
-    code: "PW"
+    code: "PW",
+    region: ["Australia and Oceania", "Pacific Ocean Countries"]
   },
   {
     name: "Panama",
     code: "PA",
-    region: ["America", "North America", "Central America", "South America", "Latin America", "Caribbean Sea Countries"]
+    region: ["America", "North America", "Central America", "South America", "Latin America", "Caribbean Sea Countries", "Pacific Ocean Countries"]
   },
   {
     name: "Papua New Guinea",
-    code: "PG"
+    code: "PG",
+    region: ["Australia and Oceania", "Pacific Ocean Countries"]
   },
   {
     name: "Paraguay",
@@ -2954,12 +2963,12 @@ const flags = [
   {
     name: "Peru",
     code: "PE",
-    region: ["America", "South America", "Latin America"]
+    region: ["America", "South America", "Latin America", "Pacific Ocean Countries"]
   },
   {
     name: "Philippines",
     code: "PH",
-    region: ["Asia", "Southeast Asia"]
+    region: ["Asia", "Southeast Asia", "Pacific Ocean Countries"]
   },
   {
     name: "Poland",
@@ -2984,11 +2993,12 @@ const flags = [
   {
     name: "Russia",
     code: "RU",
-    region: ["Europe", "Eastern Europe", "Former USSR", "Asia", "North Asia", "East Asia", "Baltic Sea Countries", "Arctic Sea Countries", "Black Sea Countries"]
+    region: ["Europe", "Eastern Europe", "Former USSR", "Asia", "North Asia", "East Asia", "Baltic Sea Countries", "Arctic Sea Countries", "Black Sea Countries", "Pacific Ocean Countries"]
   },
   {
     name: "Solomon Islands",
-    code: "SB"
+    code: "SB",
+    region: ["Australia and Oceania", "Pacific Ocean Countries"]
   },
   {
     name: "Zambia",
@@ -2997,7 +3007,8 @@ const flags = [
   },
   {
     name: "Samoa",
-    code: "WS"
+    code: "WS",
+    region: ["Australia and Oceania", "Pacific Ocean Countries"]
   },
   {
     name: "San Marino",
@@ -3097,7 +3108,7 @@ const flags = [
   {
     name: "South Africa",
     code: "ZA",
-    region: ["Africa", "Southern Africa", "Indian Ocean Countries", "Atlantic Ocean Countries"]
+    region: ["Africa", "Southern Africa", "Indian Ocean Countries", "Atlantic Ocean Countries", "Southern Ocean Countries"]
   },
   {
     name: "Sudan",
@@ -3132,7 +3143,7 @@ const flags = [
   {
     name: "Thailand",
     code: "TH",
-    region: ["Asia", "Southeast Asia"]
+    region: ["Asia", "Southeast Asia", "Pacific Ocean Countries"]
   },
   {
     name: "Togo",
@@ -3141,7 +3152,8 @@ const flags = [
   },
   {
     name: "Tonga",
-    code: "TO"
+    code: "TO",
+    region: ["Australia and Oceania", "Pacific Ocean Countries"]
   },
   {
     name: "Trinidad and Tobago",
@@ -3175,7 +3187,8 @@ const flags = [
   },
   {
     name: "Tuvalu",
-    code: "TV"
+    code: "TV",
+    region: ["Australia and Oceania", "Pacific Ocean Countries"]
   },
   {
     name: "Uganda",
@@ -3204,7 +3217,8 @@ const flags = [
   },
   {
     name: "Vanuatu",
-    code: "VU"
+    code: "VU",
+    region: ["Australia and Oceania", "Pacific Ocean Countries"]
   },
   {
     name: "Vatican City",
@@ -3224,17 +3238,17 @@ const flags = [
   {
     name: "United States",
     code: "US",
-    region: ["America", "North America", "Anglo-America", "Atlantic Ocean Countries", "Arctic Sea Countries", "Caribbean Sea Countries", "Gulf of Mexico Countries"]
+    region: ["America", "North America", "Anglo-America", "Atlantic Ocean Countries", "Arctic Sea Countries", "Caribbean Sea Countries", "Gulf of Mexico Countries", "Pacific Ocean Countries"]
   },
   {
     name: "United Kingdom",
     code: "GB",
-    region: ["Europe", "Western Europe", "British Isles", "Atlantic Ocean Countries", "North Sea Countries", "Caribbean Sea Countries"]
+    region: ["Europe", "Western Europe", "British Isles", "Atlantic Ocean Countries", "North Sea Countries", "Caribbean Sea Countries", "Caribbean", "North America", "South America", "America", "Indian Ocean Countries"]
   },
   {
     name: "Vietnam",
     code: "VN",
-    region: ["Asia", "East Asia", "Southeast Asia"]
+    region: ["Asia", "East Asia", "Southeast Asia", "Pacific Ocean Countries"]
   },
   {
     name: "Sahrawi Democratic Arab Republic",
