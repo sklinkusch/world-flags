@@ -58,9 +58,10 @@ function App() {
           justifyContent: "space-around", 
           alignItems: "center", 
           flexWrap: "wrap" ,
-          height: "calc(100vh - 40px)"
+          height: "calc(100vh - 40px)",
+          overflowY: "auto"
         }}>
-          {sortedFlags.map(flag => (<div key={flag.code} sx={{ display: "flex", flexDirection: "column", alignItems: "center", overflowY: "auto" }}>
+          {sortedFlags.map(flag => (<div key={flag.code} sx={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
             <Flag code={flag.code} sx={{height: "45px", maxWidth: "100px", mx: "8px", my: "12px"}} title={flag.name} />
             <p sx={{ fontSize: "12px", textAlign: "center", maxWidth: "90px"}}>{flag.name}</p>
             </div>))}
