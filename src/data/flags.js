@@ -169,7 +169,7 @@ const flags = [
   {
     name: "Angola",
     code: "AO",
-    region: ["Africa", "Central Africa", "Southern Africa", "Atlantic Ocean Countries"],
+    region: ["Africa", "Central Africa", "Southern Africa", "Atlantic Ocean Countries", "Portuguese Language Countries"],
     black: true,
     blue: false,
     green: false,
@@ -223,7 +223,7 @@ const flags = [
   {
     name: "Equatorial Guinea",
     code: "GQ",
-    region: ["Africa", "Central Africa", "Atlantic Ocean Countries", "French Language Countries"],
+    region: ["Africa", "Central Africa", "Atlantic Ocean Countries", "French Language Countries", "Portuguese Language Countries"],
     black: false,
     blue: true,
     green: true,
@@ -687,7 +687,7 @@ const flags = [
   {
     name: "Brazil",
     code: "BR",
-    region: ["America", "Latin America", "South America", "Atlantic Ocean Countries", "German Language Countries"],
+    region: ["America", "Latin America", "South America", "Atlantic Ocean Countries", "German Language Countries", "Portuguese Language Countries"],
     black: false,
     blue: true,
     green: true,
@@ -876,7 +876,7 @@ const flags = [
   {
     name: "China",
     code: "CN",
-    region: ["Asia", "East Asia", "Pacific Ocean Countries", "English Language Countries"],
+    region: ["Asia", "East Asia", "Pacific Ocean Countries", "English Language Countries", "Portuguese Language Countries"],
     black: false,
     blue: false,
     green: false,
@@ -1524,7 +1524,7 @@ const flags = [
   {
     name: "Guinea-Bissau",
     code: "GW",
-    region: ["Africa", "West Africa", "Atlantic Ocean Countries"],
+    region: ["Africa", "West Africa", "Atlantic Ocean Countries", "Portuguese Language Countries"],
     black: false,
     blue: false,
     green: true,
@@ -2037,7 +2037,7 @@ const flags = [
   {
     name: "Cabo Verde",
     code: "CV",
-    region: ["Africa", "West Africa"],
+    region: ["Africa", "West Africa", "Portuguese Language Countries"],
     black: false,
     blue: true,
     green: false,
@@ -2858,7 +2858,7 @@ const flags = [
   {
     name: "Mozambique",
     code: "MZ",
-    region: ["Africa", "East Africa", "Southern Africa", "Indian Ocean Countries"]
+    region: ["Africa", "East Africa", "Southern Africa", "Indian Ocean Countries", "Portuguese Language Countries"]
   },
   {
     name: "Myanmar",
@@ -2928,7 +2928,7 @@ const flags = [
   {
     name: "Timor-Leste",
     code: "TL",
-    region: ["Asia", "Southeast Asia", "Pacific Ocean Countries"]
+    region: ["Asia", "Southeast Asia", "Pacific Ocean Countries", "Portuguese Language Countries"]
   },
   {
     name: "Pakistan",
@@ -2978,7 +2978,7 @@ const flags = [
   {
     name: "Portugal",
     code: "PT",
-    region: ["Europe", "Southern Europe", "Iberic Peninsula", "Atlantic Ocean Countries"]
+    region: ["Europe", "Southern Europe", "Iberic Peninsula", "Atlantic Ocean Countries", "Portuguese Language Countries"]
   },
   {
     name: "Rwanda",
@@ -3018,7 +3018,7 @@ const flags = [
   {
     name: "São Tomé and Príncipe",
     code: "ST",
-    region: ["Africa", "Central Africa", "Atlantic Ocean Countries"]
+    region: ["Africa", "Central Africa", "Atlantic Ocean Countries", "Portuguese Language Countries"]
   },
   {
     name: "Saudi Arabia",
@@ -3123,7 +3123,7 @@ const flags = [
   {
     name: "Suriname",
     code: "SR",
-    region: ["America", "South America", "Dutch America", "Atlantic Ocean Countries"]
+    region: ["America", "South America", "Atlantic Ocean Countries"]
   },
   {
     name: "Syria",
