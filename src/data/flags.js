@@ -61,7 +61,7 @@ const flags = [
   {
     name: "Egypt",
     code: "EG",
-    region: ["Africa", "North Africa", "Mediterranean Countries", "Red Sea Countries", "Asia", "Western Asia"],
+    region: ["Africa", "North Africa", "Mediterranean Countries", "Red Sea Countries", "Asia", "Western Asia", "Arabic Language Countries"],
     black: true,
     blue: false,
     green: false,
@@ -115,7 +115,7 @@ const flags = [
   {
     name: "Algeria",
     code: "DZ",
-    region: ["Africa", "North Africa", "Maghreb", "Mediterranean Countries"],
+    region: ["Africa", "North Africa", "Maghreb", "Mediterranean Countries", "Arabic Language Countries"],
     black: true,
     blue: false,
     green: true,
@@ -412,7 +412,7 @@ const flags = [
   {
     name: "Bahrain",
     code: "BH",
-    region: ["Asia", "Western Asia", "Arabian Peninsula", "Persian Gulf Countries"],
+    region: ["Asia", "Western Asia", "Arabian Peninsula", "Persian Gulf Countries", "Arabic Language Countries"],
     black: false,
     blue: false,
     green: false,
@@ -1038,7 +1038,7 @@ const flags = [
   {
     name: "Djibouti",
     code: "DJ",
-    region: ["Africa", "North Africa", "East Africa", "Red Sea Countries"],
+    region: ["Africa", "North Africa", "East Africa", "Red Sea Countries", "Arabic Language Countries"],
     black: false,
     blue: true,
     green: true,
@@ -1146,7 +1146,7 @@ const flags = [
   {
     name: "Eritrea",
     code: "ER",
-    region: ["Africa", "North Africa", "East Africa", "Red Sea Countries"],
+    region: ["Africa", "North Africa", "East Africa", "Red Sea Countries", "Arabic Language Countries"],
     black: false,
     blue: true,
     green: true,
@@ -1686,7 +1686,7 @@ const flags = [
   {
     name: "Iraq",
     code: "IQ",
-    region: ["Asia", "Western Asia", "Persian Gulf Countries"],
+    region: ["Asia", "Western Asia", "Persian Gulf Countries", "Arabic Language Countries"],
     black: true,
     blue: false,
     green: false,
@@ -1794,7 +1794,7 @@ const flags = [
   {
     name: "Israel",
     code: "IL",
-    region: ["Asia", "Western Asia", "Levant", "Red Sea Countries", "Mediterranean Countries"],
+    region: ["Asia", "Western Asia", "Levant", "Red Sea Countries", "Mediterranean Countries", "Arabic Language Countries"],
     black: false,
     blue: true,
     green: false,
@@ -1902,7 +1902,7 @@ const flags = [
   {
     name: "Yemen",
     code: "YE",
-    region: ["Asia", "Western Asia", "Arabian Peninsula", "Indian Ocean Countries", "Red Sea Countries"],
+    region: ["Asia", "Western Asia", "Arabian Peninsula", "Indian Ocean Countries", "Red Sea Countries", "Arabic Language Countries"],
     black: true,
     blue: false,
     green: false,
@@ -1929,7 +1929,7 @@ const flags = [
   {
     name: "Jordan",
     code: "JO",
-    region: ["Asia", "Western Asia", "Red Sea Countries"],
+    region: ["Asia", "Western Asia", "Red Sea Countries", "Arabic Language Countries"],
     black: true,
     blue: false,
     green: true,
@@ -2091,7 +2091,7 @@ const flags = [
   {
     name: "Qatar",
     code: "QA",
-    region: ["Asia", "Western Asia", "Arabian Peninsula", "Persian Gulf Countries"],
+    region: ["Asia", "Western Asia", "Arabian Peninsula", "Persian Gulf Countries", "Arabic Language Countries"],
     black: false,
     blue: false,
     green: false,
@@ -2226,7 +2226,7 @@ const flags = [
   {
     name: "Comoros",
     code: "KM",
-    region: ["Africa", "East Africa", "Indian Ocean Countries"],
+    region: ["Africa", "East Africa", "Indian Ocean Countries", "Arabic Language Countries"],
     black: false,
     blue: true,
     green: true,
@@ -2442,7 +2442,7 @@ const flags = [
   {
     name: "Kuwait",
     code: "KW",
-    region: ["Asia", "Western Asia", "Persian Gulf Countries"],
+    region: ["Asia", "Western Asia", "Persian Gulf Countries", "Arabic Language Countries"],
     black: true,
     blue: false,
     green: true,
@@ -2550,7 +2550,7 @@ const flags = [
   {
     name: "Lebanon",
     code: "LB",
-    region: ["Asia", "Western Asia", "Mediterranean Countries", "Levant"],
+    region: ["Asia", "Western Asia", "Mediterranean Countries", "Levant", "Arabic Language Countries"],
     black: false,
     blue: false,
     green: true,
@@ -2604,7 +2604,7 @@ const flags = [
   {
     name: "Libya",
     code: "LY",
-    region: ["Africa", "North Africa", "Maghreb", "Mediterranean Countries"],
+    region: ["Africa", "North Africa", "Maghreb", "Mediterranean Countries", "Arabic Language Countries"],
     black: true,
     blue: false,
     green: true,
@@ -2808,7 +2808,7 @@ const flags = [
   {
     name: "Morocco",
     code: "MA",
-    region: ["Africa", "North Africa", "Maghreb", "Mediterranean Countries", "Atlantic Ocean Countries"]
+    region: ["Africa", "North Africa", "Maghreb", "Mediterranean Countries", "Atlantic Ocean Countries", "Arabic Language Countries"]
   },
   {
     name: "Marshall Islands",
@@ -2818,7 +2818,7 @@ const flags = [
   {
     name: "Mauritania",
     code: "MR",
-    region: ["Africa", "North Africa", "West Africa", "Atlantic Ocean Countries"]
+    region: ["Africa", "North Africa", "West Africa", "Atlantic Ocean Countries", "Arabic Language Countries"]
   },
   {
     name: "Mauritius",
@@ -2918,7 +2918,7 @@ const flags = [
   {
     name: "Oman",
     code: "OM",
-    region: ["Asia", "Western Asia", "Arabian Peninsula", "Persian Gulf Countries", "Indian Ocean Countries"]
+    region: ["Asia", "Western Asia", "Arabian Peninsula", "Persian Gulf Countries", "Indian Ocean Countries", "Arabic Language Countries"]
   },
   {
     name: "Austria",
@@ -2938,7 +2938,7 @@ const flags = [
   {
     name: "Palestine",
     code: "PS",
-    region: ["Asia", "Western Asia", "Levant", "Mediterranean Countries"]
+    region: ["Asia", "Western Asia", "Levant", "Mediterranean Countries", "Arabic Language Countries"]
   },
   {
     name: "Palau",
@@ -3023,7 +3023,7 @@ const flags = [
   {
     name: "Saudi Arabia",
     code: "SA",
-    region: ["Asia", "Western Asia", "Arabian Peninsula", "Persian Gulf Countries", "Red Sea Countries"]
+    region: ["Asia", "Western Asia", "Arabian Peninsula", "Persian Gulf Countries", "Red Sea Countries", "Arabic Language Countries"]
   },
   {
     name: "Sweden",
@@ -3078,7 +3078,7 @@ const flags = [
   {
     name: "Somalia",
     code: "SO",
-    region: ["Africa", "East Africa", "Red Sea Countries", "Indian Ocean Countries"]
+    region: ["Africa", "East Africa", "Red Sea Countries", "Indian Ocean Countries", "Arabic Language Countries"]
   },
   {
     name: "Spain",
@@ -3113,7 +3113,7 @@ const flags = [
   {
     name: "Sudan",
     code: "SD",
-    region: ["Africa", "North Africa", "Red Sea Countries"]
+    region: ["Africa", "North Africa", "Red Sea Countries", "Arabic Language Countries"]
   },
   {
     name: "South Sudan",
@@ -3128,7 +3128,7 @@ const flags = [
   {
     name: "Syria",
     code: "SY",
-    region: ["Asia", "Western Asia", "Levant", "Mediterranean Countries"]
+    region: ["Asia", "Western Asia", "Levant", "Mediterranean Countries", "Arabic Language Countries"]
   },
   {
     name: "Tajikistan",
@@ -3163,7 +3163,7 @@ const flags = [
   {
     name: "Chad",
     code: "TD",
-    region: ["Africa", "North Africa", "Central Africa"]
+    region: ["Africa", "North Africa", "Central Africa", "Arabic Language Countries"]
   },
   {
     name: "Czechia",
@@ -3173,7 +3173,7 @@ const flags = [
   {
     name: "Tunisia",
     code: "TN",
-    region: ["Africa", "North Africa", "Maghreb", "Mediterranean Countries"]
+    region: ["Africa", "North Africa", "Maghreb", "Mediterranean Countries", "Arabic Language Countries"]
   },
   {
     name: "Turkey",
@@ -3233,7 +3233,7 @@ const flags = [
   {
     name: "United Arab Emirates",
     code: "AE",
-    region: ["Asia", "Western Asia", "Arabian Peninsula", "Persian Gulf Countries"]
+    region: ["Asia", "Western Asia", "Arabian Peninsula", "Persian Gulf Countries", "Arabic Language Countries"]
   },
   {
     name: "United States",
