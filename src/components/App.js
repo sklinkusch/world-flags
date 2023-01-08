@@ -37,6 +37,7 @@ function App() {
       <header 
         className="App-header" 
         sx={{ 
+          maxHeight: "100vh",
           backgroundColor: "#bbbbbb", // #282c34
           minHeight: "100vh", 
           display: "flex", 
@@ -47,7 +48,7 @@ function App() {
           fontSize: "calc(10px + 2vmin)"
         }}
       >
-        <div sx={{ textAlign: "center" }}>
+        <div sx={{ textAlign: "center", width: "100%", py: "20px", boxShadow: "0 10px 5px #999999" }}>
           <select onChange={handleRegionChange} sx={{ height: "30px", width: "250px", fontSize: "14px" }} value={region}>
             {allRegions.map((regionOpt, index) => <option key={index} value={regionOpt}>{regionOpt !== "null" ? regionOpt : "all"}</option>)}
           </select>
@@ -58,8 +59,9 @@ function App() {
           justifyContent: "space-around", 
           alignItems: "center", 
           flexWrap: "wrap" ,
-          height: "calc(100vh - 40px)",
-          overflowY: "auto"
+          height: "calc(100vh - 70px)",
+          overflowY: "auto",
+          padding: "20px 30px"
         }}>
           {sortedFlags.map(flag => (<div key={flag.code} sx={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
             <Flag code={flag.code} sx={{height: "45px", maxWidth: "100px", mx: "8px", my: "12px"}} title={flag.name} />
