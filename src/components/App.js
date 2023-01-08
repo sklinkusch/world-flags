@@ -37,13 +37,13 @@ function App() {
       <header 
         className="App-header" 
         sx={{ 
-          backgroundColor: "#282c34", 
+          backgroundColor: "#bbbbbb", // #282c34
           minHeight: "100vh", 
           display: "flex", 
           flexDirection: "column", 
           justifyContent: "center", 
           alignItems: "center", 
-          color: "white", 
+          color: "#111111", 
           fontSize: "calc(10px + 2vmin)"
         }}
       >
