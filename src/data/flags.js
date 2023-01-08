@@ -60,6 +60,7 @@ const flags = [
   {
     name: "Egypt",
     code: "EG",
+    region: ["Africa", "North Africa", "Mediterranean Countries", "Red Sea Countries"],
     black: true,
     blue: false,
     green: false,
@@ -113,6 +114,7 @@ const flags = [
   {
     name: "Algeria",
     code: "DZ",
+    region: ["Africa", "North Africa", "Maghreb", "Mediterranean Countries"],
     black: true,
     blue: false,
     green: true,
@@ -166,6 +168,7 @@ const flags = [
   {
     name: "Angola",
     code: "AO",
+    region: ["Africa", "Central Africa", "Southern Africa", "Atlantic Ocean Countries"],
     black: true,
     blue: false,
     green: false,
@@ -192,7 +195,7 @@ const flags = [
   {
     name: "Antigua and Barbuda",
     code: "AG",
-    region: ["America", "North America", "Anglo-America", "Caribbean"],
+    region: ["America", "North America", "Anglo-America", "Caribbean", "Atlantic Ocean Countries", "Caribbean Sea Countries"],
     black: true,
     blue: true,
     green: false,
@@ -219,6 +222,7 @@ const flags = [
   {
     name: "Equatorial Guinea",
     code: "GQ",
+    region: ["Africa", "Central Africa", "Atlantic Ocean Countries"],
     black: false,
     blue: true,
     green: true,
@@ -245,7 +249,7 @@ const flags = [
   {
     name: "Argentina",
     code: "AR",
-    region: ["America", "Latin America", "South America"],
+    region: ["America", "Latin America", "South America", "Atlantic Ocean Countries"],
     black: false,
     blue: true,
     green: false,
@@ -326,6 +330,7 @@ const flags = [
   {
     name: "Ethiopia",
     code: "ET",
+    region: ["Africa", "North Africa", "East Africa"],
     black: false,
     blue: true,
     green: true,
@@ -378,7 +383,7 @@ const flags = [
   {
     name: "Bahamas",
     code: "BS",
-    region: ["America", "Anglo-America", "Caribbean"],
+    region: ["America", "Anglo-America", "Caribbean", "Atlantic Ocean Countries", "Gulf of Mexico Countries"],
     black: true,
     blue: true,
     green: false,
@@ -457,7 +462,7 @@ const flags = [
   {
     name: "Barbados",
     code: "BB",
-    region: ["America", "Anglo-America", "Caribbean"],
+    region: ["America", "Anglo-America", "Caribbean", "Atlantic Ocean Countries"],
     black: false,
     blue: true,
     green: false,
@@ -489,7 +494,7 @@ const flags = [
   {
     name: "Belgium",
     code: "BE",
-    region: ["Europe", "Western Europe"],
+    region: ["Europe", "Western Europe", "North Sea Countries"],
     black: true,
     blue: false,
     green: false,
@@ -516,7 +521,7 @@ const flags = [
   {
     name: "Belize",
     code: "BZ",
-    region: ["America", "North America", "Anglo-America", "Central America"],
+    region: ["America", "North America", "Anglo-America", "Central America", "Caribbean Sea Countries"],
     black: false,
     blue: true,
     green: false,
@@ -543,6 +548,7 @@ const flags = [
   {
     name: "Benin",
     code: "BJ",
+    region: ["Africa", "West Africa", "Atlantic Ocean Countries"],
     black: false,
     blue: false,
     green: true,
@@ -649,6 +655,7 @@ const flags = [
   {
     name: "Botswana",
     code: "BW",
+    region: ["Africa", "Southern Africa"],
     black: true,
     blue: true,
     green: false,
@@ -675,7 +682,7 @@ const flags = [
   {
     name: "Brazil",
     code: "BR",
-    region: ["America", "Latin America", "South America"],
+    region: ["America", "Latin America", "South America", "Atlantic Ocean Countries"],
     black: false,
     blue: true,
     green: true,
@@ -728,7 +735,7 @@ const flags = [
   {
     name: "Bulgaria",
     code: "BG",
-    region: ["Europe", "Eastern Europe", "Balkans Peninsula"],
+    region: ["Europe", "Eastern Europe", "Balkans Peninsula", "Black Sea Countries"],
     black: false,
     blue: false,
     green: true,
@@ -755,6 +762,7 @@ const flags = [
   {
     name: "Burkina Faso",
     code: "BF",
+    region: ["Africa", "West Africa"],
     black: false,
     blue: false,
     green: true,
@@ -781,6 +789,7 @@ const flags = [
   {
     name: "Burundi",
     code: "BI",
+    region: ["Africa", "Central Africa", "East Africa"],
     black: false,
     blue: false,
     green: true,
@@ -807,7 +816,7 @@ const flags = [
   {
     name: "Chile",
     code: "CL",
-    region: ["America", "Latin America", "South America"],
+    region: ["America", "Latin America", "South America", "Atlantic Ocean Countries"],
     black: false,
     blue: true,
     green: false,
@@ -886,7 +895,7 @@ const flags = [
   {
     name: "Costa Rica",
     code: "CR",
-    region: ["America", "North America","Central America", "Latin America"],
+    region: ["America", "North America","Central America", "Latin America", "Caribbean Sea Countries"],
     black: false,
     blue: true,
     green: false,
@@ -913,7 +922,7 @@ const flags = [
   {
     name: "Denmark",
     code: "DK",
-    region: ["Europe", "Northern Europe", "Scandinavia"],
+    region: ["Europe", "Northern Europe", "Scandinavia", "Atlantic Ocean Countries", "North Sea Countries", "Baltic Sea Countries", "Arctic Sea Countries"],
     black: false,
     blue: false,
     green: false,
@@ -940,7 +949,7 @@ const flags = [
   {
     name: "Germany",
     code: "DE",
-    region: ["Europe", "Western Europe", "Central Europe"],
+    region: ["Europe", "Western Europe", "Central Europe", "North Sea Countries", "Baltic Sea Countries"],
     black: true,
     blue: false,
     green: false,
@@ -967,7 +976,7 @@ const flags = [
   {
     name: "Dominica",
     code: "DM",
-    region: ["America", "Anglo-America","Caribbean"],
+    region: ["America", "Anglo-America","Caribbean", "Atlantic Ocean Countries", "Caribbean Sea Countries"],
     black: true,
     blue: false,
     green: true,
@@ -994,7 +1003,7 @@ const flags = [
   {
     name: "Dominican Republic",
     code: "DO",
-    region: ["America", "North America", "Caribbean", "Latin America"],
+    region: ["America", "North America", "Caribbean", "Latin America", "Atlantic Ocean Countries", "Caribbean Sea Countries"],
     black: false,
     blue: false,
     green: false,
@@ -1021,6 +1030,7 @@ const flags = [
   {
     name: "Djibouti",
     code: "DJ",
+    region: ["Africa", "North Africa", "East Africa", "Red Sea Countries"],
     black: false,
     blue: true,
     green: true,
@@ -1101,6 +1111,7 @@ const flags = [
   {
     name: "Côte d'Ivoire",
     code: "CI",
+    region: ["Africa", "West Africa", "Atlantic Ocean Countries"],
     black: false,
     blue: false,
     green: true,
@@ -1127,6 +1138,7 @@ const flags = [
   {
     name: "Eritrea",
     code: "ER",
+    region: ["Africa", "North Africa", "East Africa", "Red Sea Countries"],
     black: false,
     blue: true,
     green: true,
@@ -1153,7 +1165,7 @@ const flags = [
   {
     name: "Estonia",
     code: "EE",
-    region: ["Europe", "Northern Europe", "Baltic Countries", "Former USSR"],
+    region: ["Europe", "Northern Europe", "Baltic Countries", "Former USSR", "Baltic Sea Countries"],
     black: true,
     blue: true,
     green: false,
@@ -1180,6 +1192,7 @@ const flags = [
   {
     name: "eSwatini",
     code: "SZ",
+    region: ["Africa", "Southern Africa"],
     black: true,
     blue: true,
     green: false,
@@ -1232,7 +1245,7 @@ const flags = [
   {
     name: "Finland",
     code: "FI",
-    region: ["Europe", "Northern Europe", "Scandinavia"],
+    region: ["Europe", "Northern Europe", "Scandinavia", "Baltic Sea Countries"],
     black: false,
     blue: true,
     green: false,
@@ -1259,7 +1272,7 @@ const flags = [
   {
     name: "France",
     code: "FR",
-    region: ["Europe", "Western Europe", "Mediterranean Countries"],
+    region: ["Europe", "Western Europe", "Mediterranean Countries", "Atlantic Ocean Countries", "North Sea Countries", "Caribbean Sea Countries"],
     black: false,
     blue: true,
     green: false,
@@ -1287,6 +1300,7 @@ const flags = [
     name: "Gabon",
     code: "GA",
     black: false,
+    region: ["Africa", "Central Africa", "Atlantic Ocean Countries"],
     blue: true,
     green: true,
     orange: false,
@@ -1312,6 +1326,7 @@ const flags = [
   {
     name: "The Gambia",
     code: "GM",
+    region: ["Africa", "West Africa", "Atlantic Ocean Countries"],
     black: false,
     blue: true,
     green: true,
@@ -1338,7 +1353,7 @@ const flags = [
   {
     name: "Georgia",
     code: "GE",
-    region: ["Europe", "Eastern Europe", "Asia", "Caucasus", "Former USSR"],
+    region: ["Europe", "Eastern Europe", "Asia", "Caucasus", "Former USSR", "Black Sea Countries"],
     black: false,
     blue: false,
     green: false,
@@ -1365,6 +1380,7 @@ const flags = [
   {
     name: "Ghana",
     code: "GH",
+    region: ["Africa", "West Africa", "Atlantic Ocean Countries"],
     black: true,
     blue: false,
     green: true,
@@ -1391,7 +1407,7 @@ const flags = [
   {
     name: "Grenada",
     code: "GD",
-    region: ["America", "North America", "Caribbean", "Anglo-America"],
+    region: ["America", "North America", "Caribbean", "Anglo-America", "Atlantic Ocean Countries", "Caribbean Sea Countries"],
     black: false,
     blue: false,
     green: true,
@@ -1445,7 +1461,7 @@ const flags = [
   {
     name: "Guatemala",
     code: "GT",
-    region: ["America", "North America", "Central America", "Latin America"],
+    region: ["America", "North America", "Central America", "Latin America", "Caribbean Sea Countries"],
     black: false,
     blue: true,
     green: false,
@@ -1472,6 +1488,7 @@ const flags = [
   {
     name: "Guinea",
     code: "GN",
+    region: ["Africa", "West Africa", "Atlantic Ocean Countries"],
     black: false,
     blue: false,
     green: true,
@@ -1498,6 +1515,7 @@ const flags = [
   {
     name: "Guinea-Bissau",
     code: "GW",
+    region: ["Africa", "West Africa", "Atlantic Ocean Countries"],
     black: false,
     blue: false,
     green: true,
@@ -1524,7 +1542,7 @@ const flags = [
   {
     name: "Guyana",
     code: "GY",
-    region: ["America", "South America", "Anglo-America"],
+    region: ["America", "South America", "Anglo-America", "Atlantic Ocean Countries"],
     black: true,
     blue: false,
     green: true,
@@ -1551,7 +1569,7 @@ const flags = [
   {
     name: "Haiti",
     code: "HT",
-    region: ["America", "North America", "Caribbean", "French America"],
+    region: ["America", "North America", "Caribbean", "French America", "Caribbean Sea Countries"],
     black: false,
     blue: true,
     green: false,
@@ -1578,7 +1596,7 @@ const flags = [
   {
     name: "Honduras",
     code: "HN",
-    region: ["America", "North America", "Central America", "Latin America"],
+    region: ["America", "North America", "Central America", "Latin America", "Caribbean Sea Countries"],
     black: false,
     blue: true,
     green: false,
@@ -1709,7 +1727,7 @@ const flags = [
   {
     name: "Ireland",
     code: "IE",
-    region: ["Europe", "Western Europe", "British Isles"],
+    region: ["Europe", "Western Europe", "British Isles", "Atlantic Ocean Countries"],
     black: false,
     blue: false,
     green: true,
@@ -1736,7 +1754,7 @@ const flags = [
   {
     name: "Iceland",
     code: "IS",
-    region: ["Europe", "Northern Europe", "Scandinavia"],
+    region: ["Europe", "Northern Europe", "Scandinavia", "Atlantic Ocean Countries", "Arctic Sea Countries"],
     black: false,
     blue: true,
     green: false,
@@ -1816,7 +1834,7 @@ const flags = [
   {
     name: "Jamaica",
     code: "JM",
-    region: ["America", "North America", "Caribbean", "Anglo-America"],
+    region: ["America", "North America", "Caribbean", "Anglo-America", "Caribbean Sea Countries"],
     black: true,
     blue: false,
     green: true,
@@ -1947,6 +1965,7 @@ const flags = [
   {
     name: "Cameroon",
     code: "CM",
+    region: ["Africa", "Central Africa", "Atlantic Ocean Countries"],
     black: false,
     blue: false,
     green: true,
@@ -1973,7 +1992,7 @@ const flags = [
   {
     name: "Canada",
     code: "CA",
-    region: ["America", "North America", "Anglo-America", "French America"],
+    region: ["America", "North America", "Anglo-America", "French America", "Atlantic Ocean Countries", "Arctic Sea Countries"],
     black: false,
     blue: false,
     green: false,
@@ -2000,6 +2019,7 @@ const flags = [
   {
     name: "Cabo Verde",
     code: "CV",
+    region: ["Africa", "West Africa"],
     black: false,
     blue: true,
     green: false,
@@ -2079,6 +2099,7 @@ const flags = [
   {
     name: "Kenya",
     code: "KE",
+    region: ["Africa", "East Africa", "Indian Ocean Countries"],
     black: true,
     blue: false,
     green: true,
@@ -2157,7 +2178,7 @@ const flags = [
   {
     name: "Colombia",
     code: "CO",
-    region: ["America", "South America", "Latin America"],
+    region: ["America", "South America", "Latin America", "Caribbean Sea Countries"],
     black: false,
     blue: true,
     green: false,
@@ -2184,6 +2205,7 @@ const flags = [
   {
     name: "Comoros",
     code: "KM",
+    region: ["Africa", "East Africa", "Indian Ocean Countries"],
     black: false,
     blue: true,
     green: true,
@@ -2210,6 +2232,7 @@ const flags = [
   {
     name: "Democratic Republic of the Congo",
     code: "CD",
+    region: ["Africa", "Central Africa", "Southern Africa", "Atlantic Ocean Countries"],
     black: false,
     blue: true,
     green: false,
@@ -2236,6 +2259,7 @@ const flags = [
   {
     name: "Republic of the Congo",
     code: "CG",
+    region: ["Africa", "Central Africa", "Atlantic Ocean Countries"],
     black: false,
     blue: false,
     green: true,
@@ -2368,7 +2392,7 @@ const flags = [
   {
     name: "Cuba",
     code: "CU",
-    region: ["America", "North America", "Caribbean", "Latin America"],
+    region: ["America", "North America", "Caribbean", "Latin America", "Caribbean Sea Countries", "Gulf of Mexico Countries"],
     black: false,
     blue: true,
     green: false,
@@ -2447,6 +2471,7 @@ const flags = [
   {
     name: "Lesotho",
     code: "LS",
+    region: ["Africa", "Southern Africa"],
     black: true,
     blue: true,
     green: true,
@@ -2473,7 +2498,7 @@ const flags = [
   {
     name: "Latvia",
     code: "LV",
-    region: ["Europe", "Northern Europe", "Baltic Countries", "Former USSR"],
+    region: ["Europe", "Northern Europe", "Baltic Countries", "Former USSR", "Baltic Sea Countries"],
     black: false,
     blue: false,
     green: false,
@@ -2526,6 +2551,7 @@ const flags = [
   {
     name: "Liberia",
     code: "LR",
+    region: ["Africa", "West Africa", "Atlantic Ocean Countries"],
     black: false,
     blue: true,
     green: false,
@@ -2552,6 +2578,7 @@ const flags = [
   {
     name: "Libya",
     code: "LY",
+    region: ["Africa", "North Africa", "Maghreb", "Mediterranean Countries"],
     black: true,
     blue: false,
     green: true,
@@ -2605,7 +2632,7 @@ const flags = [
   {
     name: "Lithuania",
     code: "LT",
-    region: ["Europe", "Northern Europe", "Baltic Countries", "Former USSR"],
+    region: ["Europe", "Northern Europe", "Baltic Countries", "Former USSR", "Baltic Sea Countries"],
     black: false,
     blue: false,
     green: true,
@@ -2659,6 +2686,7 @@ const flags = [
   {
     name: "Madagascar",
     code: "MG",
+    region: ["Africa", "East Africa", "Southern Africa", "Indian Ocean Countries"],
     black: false,
     blue: false,
     green: true,
@@ -2685,6 +2713,7 @@ const flags = [
   {
     name: "Malawi",
     code: "MW",
+    region: ["Africa", "East Africa", "Southern Africa"],
     black: true,
     blue: false,
     green: true,
@@ -2740,7 +2769,8 @@ const flags = [
   },
   {
     name: "Mali",
-    code: "ML"
+    code: "ML",
+    region: ["Africa", "North Africa", "West Africa"]
   },
   {
     name: "Malta",
@@ -2749,7 +2779,8 @@ const flags = [
   },
   {
     name: "Morocco",
-    code: "MA"
+    code: "MA",
+    region: ["Africa", "North Africa", "Maghreb", "Mediterranean Countries", "Atlantic Ocean Countries"]
   },
   {
     name: "Marshall Islands",
@@ -2757,16 +2788,18 @@ const flags = [
   },
   {
     name: "Mauritania",
-    code: "MR"
+    code: "MR",
+    region: ["Africa", "North Africa", "West Africa", "Atlantic Ocean Countries"]
   },
   {
     name: "Mauritius",
-    code: "MU"
+    code: "MU",
+    region: ["Africa", "East Africa", "Southern Africa", "Indian Ocean Countries"]
   },
   {
     name: "Mexico",
     code: "MX",
-    region: ["America", "North America", "Latin America"]
+    region: ["America", "North America", "Latin America", "Caribbean Sea Countries", "Gulf of Mexico Countries"]
   },
   {
     name: "Micronesia",
@@ -2788,11 +2821,13 @@ const flags = [
   },
   {
     name: "Montenegro",
-    code: "ME"
+    code: "ME",
+    region: ["Europe", "Southern Europe", "Balkans Peninsula"]
   },
   {
     name: "Mozambique",
-    code: "MZ"
+    code: "MZ",
+    region: ["Africa", "East Africa", "Southern Africa", "Indian Ocean Countries"]
   },
   {
     name: "Myanmar",
@@ -2800,7 +2835,8 @@ const flags = [
   },
   {
     name: "Namibia",
-    code: "NA"
+    code: "NA",
+    region: ["Africa", "Southern Africa", "Atlantic Ocean Countries"]
   },
   {
     name: "Nauru",
@@ -2813,20 +2849,22 @@ const flags = [
   {
     name: "Nicaragua",
     code: "NI",
-    region: ["America", "North America", "Central America", "Latin America"]
+    region: ["America", "North America", "Central America", "Latin America", "Caribbean Sea Countries"]
   },
   {
     name: "Netherlands",
     code: "NL",
-    region: ["Europe", "Western Europe"]
+    region: ["Europe", "Western Europe", "North Sea Countries", "Caribbean Sea Countries"]
   },
   {
     name: "Niger",
-    code: "NE"
+    code: "NE",
+    region: ["Africa", "North Africa", "West Africa"]
   },
   {
     name: "Nigeria",
-    code: "NG"
+    code: "NG",
+    region: ["Africa", "West Africa", "Atlantic Ocean Countries"]
   },
   {
     name: "North Macedonia",
@@ -2836,7 +2874,7 @@ const flags = [
   {
     name: "Norway",
     code: "NO",
-    region: ["Europe", "Northern Europe", "Scandinavia"]
+    region: ["Europe", "Northern Europe", "Scandinavia", "Atlantic Ocean Countries", "North Sea Countries", "Arctic Sea Countries"]
   },
   {
     name: "Oman",
@@ -2866,7 +2904,7 @@ const flags = [
   {
     name: "Panama",
     code: "PA",
-    region: ["America", "North America", "Central America", "South America", "Latin America"]
+    region: ["America", "North America", "Central America", "South America", "Latin America", "Caribbean Sea Countries"]
   },
   {
     name: "Papua New Guinea",
@@ -2889,26 +2927,27 @@ const flags = [
   {
     name: "Poland",
     code: "PL",
-    region: ["Europe", "Eastern Europe", "Central Europe"]
+    region: ["Europe", "Eastern Europe", "Central Europe", "Baltic Sea Countries"]
   },
   {
     name: "Portugal",
     code: "PT",
-    region: ["Europe", "Southern Europe", "Iberic Peninsula"]
+    region: ["Europe", "Southern Europe", "Iberic Peninsula", "Atlantic Ocean Countries"]
   },
   {
     name: "Rwanda",
-    code: "RW"
+    code: "RW",
+    region: ["Africa", "Central Africa", "East Africa"]
   },
   {
     name: "Romania",
     code: "RO",
-    region: ["Europe", "Eastern Europe", "Balkans Peninsula"]
+    region: ["Europe", "Eastern Europe", "Balkans Peninsula", "Black Sea Countries"]
   },
   {
     name: "Russia",
     code: "RU",
-    region: ["Europe", "Eastern Europe", "Former USSR"]
+    region: ["Europe", "Eastern Europe", "Former USSR", "Asia", "North Asia", "Baltic Sea Countries", "Arctic Sea Countries", "Black Sea Countries"]
   },
   {
     name: "Solomon Islands",
@@ -2916,7 +2955,8 @@ const flags = [
   },
   {
     name: "Zambia",
-    code: "ZM"
+    code: "ZM",
+    region: ["Africa", "Central Africa", "East Africa", "Southern Africa"]
   },
   {
     name: "Samoa",
@@ -2929,7 +2969,8 @@ const flags = [
   },
   {
     name: "São Tomé and Príncipe",
-    code: "ST"
+    code: "ST",
+    region: ["Africa", "Central Africa", "Atlantic Ocean Countries"]
   },
   {
     name: "Saudi Arabia",
@@ -2938,7 +2979,7 @@ const flags = [
   {
     name: "Sweden",
     code: "SE",
-    region: ["Europe", "Northern Europe", "Scandinavia"]
+    region: ["Europe", "Northern Europe", "Scandinavia", "North Sea Countries", "Baltic Sea Countries"]
   },
   {
     name: "Switzerland",
@@ -2947,7 +2988,8 @@ const flags = [
   },
   {
     name: "Senegal",
-    code: "SN"
+    code: "SN",
+    region: ["Africa", "West Africa", "Atlantic Ocean Countries"]
   },
   {
     name: "Serbia",
@@ -2956,15 +2998,18 @@ const flags = [
   },
   {
     name: "Seychelles",
-    code: "SC"
+    code: "SC",
+    region: ["Africa", "East Africa", "Southern Africa", "Indian Ocean Countries"]
   },
   {
     name: "Sierra Leone",
-    code: "SL"
+    code: "SL",
+    region: ["Africa", "West Africa", "Atlantic Ocean Countries"]
   },
   {
     name: "Zimbabwe",
-    code: "ZW"
+    code: "ZW",
+    region: ["Africa", "East Africa", "Southern Africa"]
   },
   {
     name: "Singapore",
@@ -2982,12 +3027,13 @@ const flags = [
   },
   {
     name: "Somalia",
-    code: "SO"
+    code: "SO",
+    region: ["Africa", "East Africa", "Red Sea Countries", "Indian Ocean Countries"]
   },
   {
     name: "Spain",
     code: "ES",
-    region: ["Europe", "Southern Europe", "Iberic Peninsula", "Mediterranean Countries"]
+    region: ["Europe", "Southern Europe", "Iberic Peninsula", "Mediterranean Countries", "Atlantic Ocean Countries"]
   },
   {
     name: "Sri Lanka",
@@ -2996,34 +3042,37 @@ const flags = [
   {
     name: "St. Kitts and Nevis",
     code: "KN",
-    region: ["America", "North America", "Caribbean", "Anglo-America"]
+    region: ["America", "North America", "Caribbean", "Anglo-America", "Atlantic Ocean Countries", "Caribbean Sea Countries"]
   },
   {
     name: "St. Lucia",
     code: "LC",
-    region: ["America", "North America", "Caribbean", "Anglo-America"]
+    region: ["America", "North America", "Caribbean", "Anglo-America", "Atlantic Ocean Countries", "Caribbean Sea Countries"]
   },
   {
     name: "St. Vincent and the Grenadines",
     code: "VC",
-    region: ["America", "North America", "Caribbean", "Anglo-America"]
+    region: ["America", "North America", "Caribbean", "Anglo-America", "Atlantic Ocean Countries", "Caribbean Sea Countries"]
   },
   {
     name: "South Africa",
-    code: "ZA"
+    code: "ZA",
+    region: ["Africa", "Southern Africa", "Indian Ocean Countries", "Atlantic Ocean Countries"]
   },
   {
     name: "Sudan",
-    code: "SD"
+    code: "SD",
+    region: ["Africa", "North Africa", "Red Sea Countries"]
   },
   {
     name: "South Sudan",
-    code: "SS"
+    code: "SS",
+    region: ["Africa", "North Africa", "East Africa"]
   },
   {
     name: "Suriname",
     code: "SR",
-    region: ["America", "South America", "Dutch America"]
+    region: ["America", "South America", "Dutch America", "Atlantic Ocean Countries"]
   },
   {
     name: "Syria",
@@ -3035,11 +3084,13 @@ const flags = [
   },
   {
     name: "Tanzania",
-    code: "TZ"
+    code: "TZ",
+    region: ["Africa", "East Africa", "Southern Africa", "Indian Ocean Countries"]
   },
   {
     name: "Togo",
-    code: "TG"
+    code: "TG",
+    region: ["Africa", "West Africa", "Atlantic Ocean Countries"]
   },
   {
     name: "Tonga",
@@ -3048,11 +3099,12 @@ const flags = [
   {
     name: "Trinidad and Tobago",
     code: "TT",
-    region: ["America", "North America", "Caribbean", "South America", "Anglo-America"]
+    region: ["America", "North America", "Caribbean", "South America", "Anglo-America", "Atlantic Ocean Countries", "Caribbean Sea Countries"]
   },
   {
     name: "Chad",
-    code: "TD"
+    code: "TD",
+    region: ["Africa", "North Africa", "Central Africa"]
   },
   {
     name: "Czechia",
@@ -3061,12 +3113,13 @@ const flags = [
   },
   {
     name: "Tunisia",
-    code: "TN"
+    code: "TN",
+    region: ["Africa", "North Africa", "Maghreb", "Mediterranean Countries"]
   },
   {
     name: "Turkey",
     code: "TR",
-    region: ["Europe", "Eastern Europe", "Asia", "Mediterranean Countries"]
+    region: ["Europe", "Eastern Europe", "Asia", "Mediterranean Countries", "Black Sea Countries"]
   },
   {
     name: "Turkmenistan",
@@ -3078,12 +3131,13 @@ const flags = [
   },
   {
     name: "Uganda",
-    code: "UG"
+    code: "UG",
+    region: ["Africa", "East Africa"]
   },
   {
     name: "Ukraine",
     code: "UA",
-    region: ["Europe", "Eastern Europe", "Former USSR"]
+    region: ["Europe", "Eastern Europe", "Former USSR", "Black Sea Countries"]
   },
   {
     name: "Hungary",
@@ -3093,7 +3147,7 @@ const flags = [
   {
     name: "Uruguay",
     code: "UY",
-    region: ["America", "South America", "Latin America"]
+    region: ["America", "South America", "Latin America", "Atlantic Ocean Countries"]
   },
   {
     name: "Uzbekistan",
@@ -3111,7 +3165,7 @@ const flags = [
   {
     name: "Venezuela",
     code: "VE",
-    region: ["America", "South America", "Latin America"]
+    region: ["America", "South America", "Latin America", "Atlantic Ocean Countries", "Caribbean Sea Countries"]
   },
   {
     name: "United Arab Emirates",
@@ -3120,12 +3174,12 @@ const flags = [
   {
     name: "United States",
     code: "US",
-    region: ["America", "North America", "Anglo-America"]
+    region: ["America", "North America", "Anglo-America", "Atlantic Ocean Countries", "Arctic Sea Countries", "Caribbean Sea Countries", "Gulf of Mexico Countries"]
   },
   {
     name: "United Kingdom",
     code: "GB",
-    region: ["Europe", "Western Europe", "British Isles"]
+    region: ["Europe", "Western Europe", "British Isles", "Atlantic Ocean Countries", "North Sea Countries", "Caribbean Sea Countries"]
   },
   {
     name: "Vietnam",
@@ -3133,11 +3187,13 @@ const flags = [
   },
   {
     name: "Sahrawi Democratic Arab Republic",
-    code: "EH"
+    code: "EH",
+    region: ["Africa", "North Africa", "West Africa", "Maghreb", "Atlantic Ocean Countries"]
   },
   {
     name: "Central African Republic",
-    code: "CF"
+    code: "CF",
+    region: ["Africa", "Central Africa"]
   },
   {
     name: "Cyprus",
