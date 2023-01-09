@@ -493,7 +493,7 @@ const flags = [
   {
     name: "Belarus",
     code: "BY",
-    region: ["Europe", "Eastern Europe", "Former USSR"]
+    region: ["Europe", "Eastern Europe", "Former USSR", "Russian Language Countries"]
   },
   {
     name: "Belgium",
@@ -1362,7 +1362,7 @@ const flags = [
   {
     name: "Georgia",
     code: "GE",
-    region: ["Europe", "Eastern Europe", "Asia", "Western Asia", "Caucasus", "Former USSR", "Black Sea Countries"],
+    region: ["Europe", "Eastern Europe", "Asia", "Western Asia", "Caucasus", "Former USSR", "Black Sea Countries", "Russian Language Countries"],
     black: false,
     blue: false,
     green: false,
@@ -2064,7 +2064,7 @@ const flags = [
   {
     name: "Kazakhstan",
     code: "KZ",
-    region: ["Europe", "Eastern Europe", "Asia", "Central Asia", "Former USSR", "Caspian Sea Countries"],
+    region: ["Europe", "Eastern Europe", "Asia", "Central Asia", "Former USSR", "Caspian Sea Countries", "Russian Language Countries"],
     black: false,
     blue: true,
     green: false,
@@ -2145,7 +2145,7 @@ const flags = [
   {
     name: "Kyrgyzstan",
     code: "KG",
-    region: ["Asia", "Central Asia"],
+    region: ["Asia", "Central Asia", "Russian Language Countries"],
     black: false,
     blue: false,
     green: true,
@@ -2838,7 +2838,7 @@ const flags = [
   {
     name: "Moldova",
     code: "MD",
-    region: ["Europe", "Eastern Europe", "Former USSR"]
+    region: ["Europe", "Eastern Europe", "Former USSR", "Russian Language Countries"]
   },
   {
     name: "Monaco",
@@ -2993,7 +2993,7 @@ const flags = [
   {
     name: "Russia",
     code: "RU",
-    region: ["Europe", "Eastern Europe", "Former USSR", "Asia", "North Asia", "East Asia", "Baltic Sea Countries", "Arctic Sea Countries", "Black Sea Countries", "Pacific Ocean Countries"]
+    region: ["Europe", "Eastern Europe", "Former USSR", "Asia", "North Asia", "East Asia", "Baltic Sea Countries", "Arctic Sea Countries", "Black Sea Countries", "Pacific Ocean Countries", "Russian Language Countries"]
   },
   {
     name: "Solomon Islands",
@@ -3198,7 +3198,7 @@ const flags = [
   {
     name: "Ukraine",
     code: "UA",
-    region: ["Europe", "Eastern Europe", "Former USSR", "Black Sea Countries"]
+    region: ["Europe", "Eastern Europe", "Former USSR", "Black Sea Countries", "Russian Language Countries"]
   },
   {
     name: "Hungary",
